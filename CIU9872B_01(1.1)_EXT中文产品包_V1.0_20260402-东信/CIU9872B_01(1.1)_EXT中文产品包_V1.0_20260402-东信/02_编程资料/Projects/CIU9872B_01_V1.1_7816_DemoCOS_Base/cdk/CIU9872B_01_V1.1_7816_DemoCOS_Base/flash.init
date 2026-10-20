@@ -1,0 +1,9 @@
+set *(int*)0x40081040=0x9000F50A
+download ihex C98BHS666ASC_ALG_API.ihex
+download ihex C98BHS666ASC_NVM_API.ihex
+#download ihex C98BHS666ASC_CMS.ihex
+#download ihex CHIP_NVR_QuickCOS.ihex
+#download ihex CMS_NVR_COS_FTLEN.ihex
+#download ihex USER_NVR_COS.ihex
+#download ihex C98BHS666ASC_MPB.ihex
+

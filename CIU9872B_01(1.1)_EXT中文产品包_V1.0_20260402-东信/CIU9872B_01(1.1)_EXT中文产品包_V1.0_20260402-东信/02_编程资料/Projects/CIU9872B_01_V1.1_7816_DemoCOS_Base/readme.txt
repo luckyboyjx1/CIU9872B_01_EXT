@@ -1,0 +1,1 @@
+本Demo COS演示7816查询、TypeA&B查询模式，COS本身与之前的金融COS相似

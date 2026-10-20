@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Name="CIU9872B_01_V1.1_7816_DemoCOS_Base" Version="1" Language="C" Type="Application Without OS">
+  <Description/>
+  <Dependencies Name="Debug"/>
+  <VirtualDirectory Name="arch">
+    <File Name="crt0.S">
+      <FileOption/>
+    </File>
+    <File Name="chip_name.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VendorInfo>
+    <VendorName>new_soc_project_c_application_e802</VendorName>
+  </VendorInfo>
+  <ToolsConfig>
+    <Compiler>
+      <Name>CKV2ElfMinilib</Name>
+      <Version>latest</Version>
+    </Compiler>
+  </ToolsConfig>
+  <VirtualDirectory Name="Drivers">
+    <VirtualDirectory Name="Standard_Peripheral">
+      <VirtualDirectory Name="inc">
+        <VirtualDirectory Name="cdkinc">
+          <File Name="../../../../Drivers/Standard_Peripheral/inc/cdkinc/core_802.h">
+            <FileOption/>
+          </File>
+          <File Name="../../../../Drivers/Standard_Peripheral/inc/cdkinc/csi_core.h">
+            <FileOption/>
+          </File>
+          <File Name="../../../../Drivers/Standard_Peripheral/inc/cdkinc/csi_gcc.h">
+            <FileOption/>
+          </File>
+        </VirtualDirectory>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/hal_ckmu.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/hal_crc.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/hal_dma.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/hal_factorycode.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/hal_gpio.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/hal_io.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/hal_pmu.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/hal_sci.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/hal_timer.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/HED_API_ChipID.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/HED_API_NVM.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/hal_ramInit.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/CIU9872B_01_V1.1.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/CIU9872B_01_V1.1_AES.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/CIU9872B_01_V1.1_ALG_API_HEX.h">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/CIU9872B_01_V1.1_EXT_SFR_CHIP.H">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/inc/CIU9872B_01_V1.1_API_NVM_Switch.h">
+          <FileOption/>
+        </File>
+      </VirtualDirectory>
+      <VirtualDirectory Name="src">
+        <File Name="../../../../Drivers/Standard_Peripheral/src/hal_ckmu.c">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/hal_crc.c">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/hal_dma.c">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/hal_factorycode.c">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/hal_gpio.c">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/hal_io.c">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/hal_pmu.c">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/hal_sci.c">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/hal_timer.c">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/libHED_API_ChipID.a">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/libHED_CCM.a">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/libHED_GCM.a">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/hal_ramInit.c">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/libCIU9872B_01_V1.1_AES.a">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/libCIU9872B_01_V1.1_API_NVM_Switch.a">
+          <FileOption/>
+        </File>
+        <File Name="../../../../Drivers/Standard_Peripheral/src/libCIU9872B_01_V1.1_API_RNG_EXT.a"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="app">
+    <File Name="../../user/src/app/APDU_Command.c">
+      <FileOption/>
+    </File>
+    <File Name="../../user/src/app/Protocol_Process.c">
+      <FileOption/>
+    </File>
+    <File Name="../../user/src/app/APDU_ECC_ALG.c">
+      <FileOption/>
+    </File>
+    <File Name="../../user/src/app/APDU_NVM.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="core">
+    <File Name="../../user/src/core/Global_Var.c">
+      <FileOption/>
+    </File>
+    <File Name="../../user/src/core/main.c">
+      <FileOption/>
+    </File>
+    <File Name="../../user/src/core/PowerDownRestore.c">
+      <FileOption/>
+    </File>
+    <File Name="../../user/src/core/SubFunc.c">
+      <FileOption/>
+    </File>
+    <File Name="../../user/src/core/Interrupt.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="target">
+    <File Name="../../user/src/target/SCI_Config.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="7816">
+    <VirtualDirectory Name="inc">
+      <File Name="../../../../Middlewares/7816/inc/SCI_Protocol.h">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+    <VirtualDirectory Name="src">
+      <File Name="../../../../Middlewares/7816/src/SCI_Protocol.c">
+        <FileOption/>
+      </File>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <DebugSessions>
+    <watchExpressions/>
+    <memoryExpressions>;;;</memoryExpressions>
+    <statistics>;1;32;10;MHZ;;up</statistics>
+    <peripheralTabs/>
+    <WatchDisplayFormat>0</WatchDisplayFormat>
+    <LocalDisplayFormat>0</LocalDisplayFormat>
+    <debugLayout/>
+    <memoryTabColSizeExpressions>100:8;100:8;100:8;100:8;</memoryTabColSizeExpressions>
+    <QuickWatchDisplayFormat>1</QuickWatchDisplayFormat>
+  </DebugSessions>
+  <BuildConfigs>
+    <BuildConfig Name="BuildSet">
+      <Target>
+        <ROMBank Selected="1">
+          <ROM1>
+            <InUse>yes</InUse>
+            <Start>0x0</Start>
+            <Size>0x97000</Size>
+          </ROM1>
+          <ROM2>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM2>
+          <ROM3>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM3>
+          <ROM4>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM4>
+          <ROM5>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM5>
+        </ROMBank>
+        <RAMBank>
+          <RAM1>
+            <InUse>yes</InUse>
+            <Start>0x20000000</Start>
+            <Size>0x5000</Size>
+            <Init>yes</Init>
+          </RAM1>
+          <RAM2>
+            <InUse>no</InUse>
+            <Start>0x50000000</Start>
+            <Size>0x800000</Size>
+            <Init>yes</Init>
+          </RAM2>
+          <RAM3>
+            <InUse>no</InUse>
+            <Start>0x60000000</Start>
+            <Size>0x20000</Size>
+            <Init>yes</Init>
+          </RAM3>
+          <RAM4>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM4>
+          <RAM5>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM5>
+        </RAMBank>
+        <CPU>e802</CPU>
+        <UseMiniLib>yes</UseMiniLib>
+        <Endian>big</Endian>
+        <UseHardFloat>no</UseHardFloat>
+        <UseEnhancedLRW>yes</UseEnhancedLRW>
+        <UseContinueBuild>no</UseContinueBuild>
+        <UseSemiHost>no</UseSemiHost>
+      </Target>
+      <Output>
+        <OutputName>$(ProjectName)</OutputName>
+        <Type>Executable</Type>
+        <CreateHexFile>yes</CreateHexFile>
+        <CreateBinFile>yes</CreateBinFile>
+        <Preprocessor>no</Preprocessor>
+        <Disassmeble>yes</Disassmeble>
+        <CallGraph>no</CallGraph>
+        <Map>yes</Map>
+      </Output>
+      <User>
+        <BeforeCompile>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+          <IsBatchScript>no</IsBatchScript>
+        </BeforeCompile>
+        <BeforeMake>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+          <IsBatchScript>no</IsBatchScript>
+        </BeforeMake>
+        <AfterMake>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+          <IsBatchScript>no</IsBatchScript>
+        </AfterMake>
+        <Tools/>
+      </User>
+      <Compiler>
+        <Define>KIT_DEBUG;</Define>
+        <Undefine/>
+        <Optim>None (-O0)</Optim>
+        <DebugLevel>Maximum (-g3)</DebugLevel>
+        <IncludePath>$(ProjectPath);$(ProjectPath)/../../../../Drivers/Standard_Peripheral/inc;$(ProjectPath)/../../../../Drivers/Standard_Peripheral/inc/cdkinc;$(ProjectPath)/../../../../Middlewares/7816/inc;$(ProjectPath)/../../../../Middlewares/rf/inc;$(ProjectPath)/../../user/inc;../../../../Drivers/Standard_Peripheral/inc/;../../../../Drivers/Standard_Peripheral/inc/cdkinc/;../../../../Middlewares/rf/inc/;../../user/inc/;../../../../Middlewares/7816/inc/</IncludePath>
+        <OtherFlags/>
+        <Verbose>no</Verbose>
+        <Ansi>no</Ansi>
+        <Syntax>no</Syntax>
+        <Pedantic>no</Pedantic>
+        <PedanticErr>no</PedanticErr>
+        <InhibitWarn>no</InhibitWarn>
+        <AllWarn>yes</AllWarn>
+        <WarnErr>no</WarnErr>
+        <OneElfS>no</OneElfS>
+        <OneElfSPerData>no</OneElfSPerData>
+        <Fstrict>no</Fstrict>
+      </Compiler>
+      <Asm>
+        <Define/>
+        <Undefine/>
+        <IncludePath>$(ProjectPath);$(ProjectPath)/../../../../Drivers/Standard_Peripheral/inc;$(ProjectPath)/../../../../Drivers/Standard_Peripheral/inc/cdkinc;$(ProjectPath)/../../../../Middlewares/7816/inc;$(ProjectPath)/../../../../Middlewares/rf/inc;$(ProjectPath)/../../user/inc</IncludePath>
+        <OtherFlags/>
+        <DebugLevel>gdwarf2</DebugLevel>
+      </Asm>
+      <Linker>
+        <Garbage>yes</Garbage>
+        <Garbage2>yes</Garbage2>
+        <LDFile>$(ProjectPath)/CIU9872B_01_7816.ld</LDFile>
+        <LibName/>
+        <LibPath/>
+        <OtherFlags/>
+        <AutoLDFile>yes</AutoLDFile>
+        <LinkType/>
+        <IncludeAllLibs>no</IncludeAllLibs>
+      </Linker>
+      <Debug>
+        <LoadApplicationAtStartup>yes</LoadApplicationAtStartup>
+        <Connector>ICE</Connector>
+        <StopAt>yes</StopAt>
+        <StopAtText>main</StopAtText>
+        <InitFile>$(ProjectPath)/gdb.init</InitFile>
+        <PreInit/>
+        <AfterLoadFile/>
+        <AutoRun>yes</AutoRun>
+        <ResetType>Hard Reset</ResetType>
+        <SoftResetVal>0</SoftResetVal>
+        <ResetAfterLoad>yes</ResetAfterLoad>
+        <AfterResetFile/>
+        <Dumpcore>no</Dumpcore>
+        <DumpcoreText/>
+        <SVCFile/>
+        <ConfigICE>
+          <IP>localhost</IP>
+          <PORT>1025</PORT>
+          <CPUNumber>0</CPUNumber>
+          <Clock>500</Clock>
+          <Delay>10</Delay>
+          <NResetDelay>100</NResetDelay>
+          <WaitReset>50</WaitReset>
+          <DDC>yes</DDC>
+          <TRST>no</TRST>
+          <PreReset>no</PreReset>
+          <DebugPrint>no</DebugPrint>
+          <Connect>Normal</Connect>
+          <ResetType>Soft Reset</ResetType>
+          <SoftResetVal>0</SoftResetVal>
+          <RTOSType>Bare Metal</RTOSType>
+          <DownloadToFlash>yes</DownloadToFlash>
+          <ResetAfterConnect>yes</ResetAfterConnect>
+          <GDBName/>
+          <GDBServerType>Local</GDBServerType>
+          <OtherFlags/>
+          <ICEEnablePCSampling>no</ICEEnablePCSampling>
+          <ICESamplingFreq>1000</ICESamplingFreq>
+          <RemoteICEEnablePCSampling>no</RemoteICEEnablePCSampling>
+          <RemoteICESamplingPort>1026</RemoteICESamplingPort>
+          <Version>latest</Version>
+          <SupportRemoteICEAsyncDebug>no</SupportRemoteICEAsyncDebug>
+        </ConfigICE>
+        <ConfigSIM>
+          <SIMTarget/>
+          <OtherFlags/>
+          <NoGraphic>yes</NoGraphic>
+          <Log>no</Log>
+          <SimTrace>no</SimTrace>
+          <Version>latest</Version>
+        </ConfigSIM>
+        <ConfigOpenOCD>
+          <OpenOCDExecutablePath/>
+          <OpenOCDLocally>yes</OpenOCDLocally>
+          <OpenOCDTelnetPortEnable>no</OpenOCDTelnetPortEnable>
+          <OpenOCDTelnetPort>4444</OpenOCDTelnetPort>
+          <OpenOCDTclPortEnable>no</OpenOCDTclPortEnable>
+          <OpenOCDTclPort>6666</OpenOCDTclPort>
+          <OpenOCDConfigOptions/>
+          <OpenOCDTimeout>5000</OpenOCDTimeout>
+          <OpenOCDRemoteIP>localhost</OpenOCDRemoteIP>
+          <OpenOCDRemotePort>3333</OpenOCDRemotePort>
+          <PluginID>openocd-sifive</PluginID>
+          <Version>latest</Version>
+        </ConfigOpenOCD>
+      </Debug>
+      <Flash>
+        <InitFile>$(ProjectPath)/SDK_KIT_EXT/InitFile/InitFile.init</InitFile>
+        <PreInit/>
+        <Erase>Erase Full Chip</Erase>
+        <Algorithms Path="">$(ProjectPath)/SDK_KIT_EXT/Flash/CIU9872B_01_V1.1_EXT.ELF</Algorithms>
+        <Program>yes</Program>
+        <Verify>yes</Verify>
+        <ResetAndRun>yes</ResetAndRun>
+        <ResetType>Hard Reset</ResetType>
+        <SoftResetVal/>
+        <FlashIndex>no</FlashIndex>
+        <FlashIndexVal>0</FlashIndexVal>
+        <External>no</External>
+        <Command/>
+        <Arguments/>
+      </Flash>
+    </BuildConfig>
+  </BuildConfigs>
+</Project>
