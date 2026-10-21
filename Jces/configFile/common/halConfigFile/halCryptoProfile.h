@@ -1,0 +1,223 @@
+/*
+ * halCryptoProfile.h
+ *
+ *  Created on: 2014Äê9ÔÂ29ÈÕ
+ *      Author: jiangxiaohui
+ */
+
+#ifndef HALCRYPTOPROFILE_H_
+#define HALCRYPTOPROFILE_H_
+
+#include "SysPlatformConfigProfile.h"
+
+#define RUN_IN_SIMULATOR 						HAL__PLATFORM__SIMULATOR
+
+/*=========================================================================== */
+/*	security features														  */
+/*=========================================================================== */
+
+#define WITH_GUOMI                  			0
+
+#if WITH_GUOMI
+	#define WITH_SM1			        		1
+	#define WITH_SM2			        		1
+	#define WITH_SM3			        		1
+	#define WITH_SM4			        		1
+	#define WITH_SM7			        		0
+	#define WITH_SSF33			        		0
+#else
+	#define WITH_SM1			        		0
+	#define WITH_SM2			        		0
+	#define WITH_SM3			        		0
+	#define WITH_SM4			        		0
+	#define WITH_SM7			        		0
+	#define WITH_SSF33			        		0
+#endif //WITH_GUOMI
+
+#if WITH_SM2
+	#if RUN_IN_SIMULATOR
+		#define WITH_SOFT_SM2               	1
+	#else
+		#define WITH_SOFT_SM2               	0
+	#endif
+#endif //WITH_RSA
+
+#define WITH_MD5     							1
+#define WITH_RIPEMD160              			0
+#define WITH_SHA1    							1
+#define WITH_SHA224                 			1
+#define WITH_SHA256                 			1
+#define WITH_SHA384                 			0
+#define WITH_SHA512                 			0
+
+#define WITH_HASH 	(WITH_MD5 || WITH_RIPEMD160 || WITH_SHA1 || WITH_SHA224 || WITH_SHA256 || WITH_SHA384 || WITH_SHA512 || WITH_SM3)
+
+#if WITH_HASH
+
+	#define WITH_MD_INIT						1
+	#define WITH_HMAC                   		1
+
+	#if WITH_MD5
+		#define WITH_SOFT_MD5					1
+	#else
+		#define WITH_SOFT_MD5					0
+	#endif //WITH_MD5
+
+	#if WITH_RIPEMD160
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_RIPEMD160			1
+		#else
+			#define WITH_SOFT_RIPEMD160			1
+		#endif
+	#endif //WITH_RIPEMD160
+
+	#if WITH_SHA1
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_SHA1				1
+		#else
+			#define WITH_SOFT_SHA1				0
+		#endif
+	#endif //WITH_SHA1
+
+	#if WITH_SHA224
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_SHA224			1
+		#else
+			#define WITH_SOFT_SHA224			0
+		#endif
+	#endif //WITH_SHA224
+
+	#if WITH_SHA256
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_SHA256			1
+		#else
+			#define WITH_SOFT_SHA256			0
+		#endif
+	#endif //WITH_SHA256
+
+	#if WITH_SHA384
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_SHA384			1
+		#else
+			#define WITH_SOFT_SHA384			0
+		#endif
+	#endif //WITH_SHA384
+
+	#if WITH_SHA512
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_SHA512			1
+		#else
+			#define WITH_SOFT_SHA512			0
+		#endif
+	#endif //WITH_SHA512
+
+	#if WITH_SM3
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_SM3				1
+		#else
+			#define WITH_SOFT_SM3				0
+		#endif
+	#endif //WITH_SM3
+
+#endif //WITH_HASH
+
+#define WITH_DES     							1
+#define WITH_AES     							1
+#define WITH_KOREANSEED							0
+
+#define WITH_SYM 	(WITH_DES || WITH_AES || WITH_KOREANSEED || WITH_SM1 || WITH_SM4 || WITH_SSF33)
+
+#if WITH_SYM
+
+	#if WITH_DES
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_DES				1
+		#else
+			#define WITH_SOFT_DES				0
+		#endif
+	#endif //WITH_DES
+
+	#if WITH_AES
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_AES				1
+		#else
+			#define WITH_SOFT_AES				0
+		#endif
+
+		#if WITH_SOFT_AES
+			#define SOFT_AES_DECRYPTO			1
+		#else
+			#define SOFT_AES_DECRYPTO			0
+		#endif
+	#endif //WITH_AES
+
+	#if WITH_KOREANSEED
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_KOREANSEED		1
+		#else
+			#define WITH_SOFT_KOREANSEED		0
+		#endif
+	#endif //WITH_KOREANSEED
+
+	#if WITH_SM4
+		#if RUN_IN_SIMULATOR
+			#define WITH_SOFT_SM4				1
+		#else
+			#define WITH_SOFT_SM4				0
+		#endif
+	#endif //WITH_SM4
+
+#endif //WITH_SYM
+
+#define WITH_AEAD                               0
+
+#define WITH_RSA     							0
+
+#if WITH_RSA
+	#define WITH_RSA_KEY_GEN               		1
+	#define WITH_SIGNMR                 		0
+	#define WITH_RSA_KEY_DEAL              		0
+	#define WITH_PKCS1_OAEP_PADDING             1 //added by jiangxiaohui@20220525 
+    #define WITH_PKCS1_PSS_PADDING              1 //added by jiangxiaohui@20220525 
+#else
+	#define WITH_RSA_KEY_GEN               		0
+	#define WITH_SIGNMR                 		0
+	#define WITH_RSA_KEY_DEAL              		0
+#endif //WITH_RSA
+
+#define WITH_CRC     							1
+
+#if WITH_CRC
+	#define WITH_CRC_32							1
+	#define WITH_CRC_16							1
+#endif //WITH_CRC
+#if WITH_CRC
+	#if RUN_IN_SIMULATOR
+		#define WITH_SOFT_CRC					1
+	    #define WITH_CHECKSUM						0
+	#else
+		#define WITH_SOFT_CRC					1
+	#endif
+	#define WITH_CHECKSUM						0
+#endif //WITH_CRC
+
+#define WITH_RANDOMDATA 						1
+
+#define WITH_ECC                    			1
+
+#if WITH_ECC
+	#define WITH_ECC_KEY_128                    0 
+	#define WITH_ECC_KEY_160                    0 
+	#define WITH_ECC_KEY_192                    0 
+	#define WITH_ECC_KEY_224                    0 
+	#define WITH_ECC_KEY_256                    1 
+	#define WITH_ECC_KEY_384                    0 
+	#define WITH_ECC_KEY_512                    0 
+	#define WITH_ECC_KEY_521                    0 
+	#define WITH_ECC_KEY_256_P                  1 
+	#define WITH_ECC_KEY_384_P                  0
+	#define WITH_ECC_KEY_256_BPR1               1
+	#define WITH_ECC_KEY_256_BPT1               0
+#endif
+
+#endif /* HALCRYPTOPROFILE_H_ */

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Jces" default="">
+	
+	<copy todir="./Debug">
+		<fileset dir="./src/SimHal/CryptoLib" casesensitive="yes">
+			<include name="*.dll*" />
+		</fileset>
+	</copy>
+	
+	<copy todir="./Debug">
+		<fileset dir="./src/SimDebug/pthread" casesensitive="yes">
+			<include name="*.dll*" />
+		</fileset>
+	</copy>
+</project>

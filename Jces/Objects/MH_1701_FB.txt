@@ -1,0 +1,1510 @@
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Thu Jan 02 09:07:49 2025
+;VERSION 0.2
+;FILE 7816channel.o
+__asm___13_7816Channel_c_fe32512c____REV16 <= USED 0
+__asm___13_7816Channel_c_fe32512c____REVSH <= USED 0
+;FILE 7816util.o
+__asm___10_7816Util_c_ad491f20____REV16 <= USED 0
+__asm___10_7816Util_c_ad491f20____REVSH <= USED 0
+iso7816Util_GetBufPck <= USED 0
+iso7816Util_GetBufPckType <= USED 0
+iso7816Util_GetIoBuffer <= USED 0
+iso7816Util_Init <= USED 0
+iso7816Util_InitBufPck <= USED 0
+iso7816Util_SetBufPck <= USED 0
+iso7816Util_SetBufPckType <= USED 0
+;FILE a3a8.o
+__asm___6_a3a8_c____REV16 <= USED 0
+__asm___6_a3a8_c____REVSH <= USED 0
+;FILE abroadlteop.o
+__asm___13_AbroadLteOp_c____REV16 <= USED 0
+__asm___13_AbroadLteOp_c____REVSH <= USED 0
+;FILE apdu.o
+__asm___6_Apdu_c_1135e490____REV16 <= USED 0
+__asm___6_Apdu_c_1135e490____REVSH <= USED 0
+apdu_CallResetAPDU <= USED 0
+apdu_SendStatus <= USED 0
+apdu_SetLeLc <= USED 0
+;FILE app_main.o
+app_main <= USED 0
+;FILE appapi.o
+__asm___8_AppAPI_c____REV16 <= USED 0
+__asm___8_AppAPI_c____REVSH <= USED 0
+;FILE arithmatic.o
+AESCal <= USED 0
+__asm___12_arithmatic_c_f4cfd9b8____REV16 <= USED 0
+__asm___12_arithmatic_c_f4cfd9b8____REVSH <= USED 0
+;FILE asn1operation.o
+__asm___15_ASN1Operation_c_c7b47c9b____REV16 <= USED 0
+__asm___15_ASN1Operation_c_c7b47c9b____REVSH <= USED 0
+;FILE authentication.o
+__asm___16_Authentication_c_51936252____REV16 <= USED 0
+__asm___16_Authentication_c_51936252____REVSH <= USED 0
+;FILE bc_arith.o
+__asm___10_bc_arith_c__sdiv____REV16 <= USED 0
+__asm___10_bc_arith_c__sdiv____REVSH <= USED 0
+;FILE bc_array.o
+__asm___10_bc_array_c_cf4b327d____REV16 <= USED 0
+__asm___10_bc_array_c_cf4b327d____REVSH <= USED 0
+;FILE bc_const.o
+__asm___10_bc_const_c_2bf4f74d____REV16 <= USED 0
+__asm___10_bc_const_c_2bf4f74d____REVSH <= USED 0
+;FILE bc_control.o
+__asm___12_bc_control_c__nop____REV16 <= USED 0
+__asm___12_bc_control_c__nop____REVSH <= USED 0
+;FILE bc_field.o
+__asm___10_bc_field_c_17a5d520____REV16 <= USED 0
+__asm___10_bc_field_c_17a5d520____REVSH <= USED 0
+;FILE bc_load.o
+__asm___9_bc_load_c__iload____REV16 <= USED 0
+__asm___9_bc_load_c__iload____REVSH <= USED 0
+;FILE bc_object.o
+__asm___11_bc_object_c_35b3fd2e____REV16 <= USED 0
+__asm___11_bc_object_c_35b3fd2e____REVSH <= USED 0
+;FILE bc_return.o
+__asm___11_bc_return_c__areturn____REV16 <= USED 0
+__asm___11_bc_return_c__areturn____REVSH <= USED 0
+;FILE bc_stack.o
+__asm___10_bc_stack_c__pop2____REV16 <= USED 0
+__asm___10_bc_stack_c__pop2____REVSH <= USED 0
+;FILE bc_static.o
+__asm___11_bc_static_c_b176a9e0____REV16 <= USED 0
+__asm___11_bc_static_c_b176a9e0____REVSH <= USED 0
+;FILE bc_store.o
+__asm___10_bc_store_c__istore____REV16 <= USED 0
+__asm___10_bc_store_c__istore____REVSH <= USED 0
+;FILE bipmoduleprocess.o
+__asm___18_BIPModuleProcess_c_6c5802c5____REV16 <= USED 0
+__asm___18_BIPModuleProcess_c_6c5802c5____REVSH <= USED 0
+;FILE boot.o
+__asm___6_Boot_c_c3401766____REV16 <= USED 0
+__asm___6_Boot_c_c3401766____REVSH <= USED 0
+;FILE bootconfigmethod.o
+__asm___18_bootConfigMethod_c_3eb9076b____REV16 <= USED 0
+__asm___18_bootConfigMethod_c_3eb9076b____REVSH <= USED 0
+;FILE booterrorhandle.o
+;FILE bootlifecycle.o
+__asm___15_BootLifeCycle_c_ac9bce7b____REV16 <= USED 0
+__asm___15_BootLifeCycle_c_ac9bce7b____REVSH <= USED 0
+;FILE bootos.o
+__asm___8_BootOS_c____REV16 <= USED 0
+__asm___8_BootOS_c____REVSH <= USED 0
+;FILE bootosimpl.o
+__asm___12_BootOSImpl_c_df78327a____REV16 <= USED 0
+__asm___12_BootOSImpl_c_df78327a____REVSH <= USED 0
+modifyAtr <= USED 0
+;FILE bootregister.o
+__asm___14_BootRegister_c_bc14bc9b____REV16 <= USED 0
+__asm___14_BootRegister_c_bc14bc9b____REVSH <= USED 0
+;FILE cardmanager.o
+__asm___13_cardManager_c_ac2f5d9f____REV16 <= USED 0
+__asm___13_cardManager_c_ac2f5d9f____REVSH <= USED 0
+;FILE casdnativemethod.o
+__asm___18_CASDNativeMethod_c____REV16 <= USED 0
+__asm___18_CASDNativeMethod_c____REVSH <= USED 0
+;FILE casdstorekey.o
+__asm___14_casdStoreKey_c_c261ba26____REV16 <= USED 0
+__asm___14_casdStoreKey_c_c261ba26____REVSH <= USED 0
+;FILE catfunction.o
+__asm___13_catfunction_c_d36f7908____REV16 <= USED 0
+__asm___13_catfunction_c_d36f7908____REVSH <= USED 0
+;FILE cattpfunction.o
+__asm___15_CatTpFunction_c____REV16 <= USED 0
+__asm___15_CatTpFunction_c____REVSH <= USED 0
+;FILE cattpsubfunction.o
+__asm___18_CatTpSubfunction_c____REV16 <= USED 0
+__asm___18_CatTpSubfunction_c____REVSH <= USED 0
+;FILE cbdownload.o
+__asm___12_CBDownload_c_117f7168____REV16 <= USED 0
+__asm___12_CBDownload_c_117f7168____REVSH <= USED 0
+;FILE cdma2gsm.o
+GetCDMAUDPos <= USED 0
+__asm___10_cdma2gsm_c_7cc377ed____REV16 <= USED 0
+__asm___10_cdma2gsm_c_7cc377ed____REVSH <= USED 0
+;FILE cdmaauth.o
+__asm___10_cdmaAuth_c_3b1ca7ee____REV16 <= USED 0
+__asm___10_cdmaAuth_c_3b1ca7ee____REVSH <= USED 0
+;FILE cdmabasefunction.o
+__asm___18_cdmabasefunction_c_7d435938____REV16 <= USED 0
+__asm___18_cdmabasefunction_c_7d435938____REVSH <= USED 0
+;FILE cdmabasesubfunction.o
+__asm___21_cdmabasesubfunction_c_3bed2617____REV16 <= USED 0
+__asm___21_cdmabasesubfunction_c_3bed2617____REVSH <= USED 0
+;FILE cdmaprl.o
+IsPRLSMS <= USED 0
+PRLcrc <= USED 0
+PRLcrcFromEeprom <= USED 0
+ShowPRLInfo <= USED 0
+UpdatePLMNList <= USED 0
+UpdateSMS <= USED 0
+WritePRLData <= USED 0
+WritePRLDisplayText <= USED 0
+__asm___9_cdmaPRL_c_PRLcrc____REV16 <= USED 0
+__asm___9_cdmaPRL_c_PRLcrc____REVSH <= USED 0
+storePRLData <= USED 0
+;FILE ceph.o
+GetResponseTextString <= USED 0
+__asm___6_ceph_c_1a2bad7d____REV16 <= USED 0
+__asm___6_ceph_c_1a2bad7d____REVSH <= USED 0
+cephCloseChannelSingle <= USED 0
+cephDisplayTextSingle <= USED 0
+cephGetChannelStatusSingle <= USED 0
+cephGetInkeySingle <= USED 0
+cephGetInputSingle <= USED 0
+cephLaunchBrowser <= USED 0
+cephMoreTimeSingle <= USED 0
+cephOpenChannelSingle <= USED 0
+cephPlayToneSingle <= USED 0
+cephPollIntervalSingle <= USED 0
+cephProLocalInforSingle <= USED 0
+cephReceiveDataSingle <= USED 0
+cephSelectItemSingle <= USED 0
+cephSendDataSingle <= USED 0
+cephSendShortMessageSingle <= USED 0
+cephSendSsSingle <= USED 0
+cephSendUssd <= USED 0
+cephSetupCallSingle <= USED 0
+;FILE cgmdel.o
+__asm___8_CgmDel_c____REV16 <= USED 0
+__asm___8_CgmDel_c____REVSH <= USED 0
+;FILE cgmfield.o
+CgmField_getEntryInfo <= USED 0
+__asm___10_CgmField_c_58d082a0____REV16 <= USED 0
+__asm___10_CgmField_c_58d082a0____REVSH <= USED 0
+;FILE cgminit.o
+CgmInit_keepVarValue <= USED 0
+__asm___9_CgmInit_c_acf739f6____REV16 <= USED 0
+__asm___9_CgmInit_c_acf739f6____REVSH <= USED 0
+;FILE cgminstall.o
+__asm___12_CgmInstall_c_9f007be4____REV16 <= USED 0
+__asm___12_CgmInstall_c_9f007be4____REVSH <= USED 0
+;FILE cgmload.o
+__asm___9_CgmLoad_c_ca7a7599____REV16 <= USED 0
+__asm___9_CgmLoad_c_ca7a7599____REVSH <= USED 0
+;FILE cgmmanager.o
+__asm___12_CgmManager_c_29812f0f____REV16 <= USED 0
+__asm___12_CgmManager_c_29812f0f____REVSH <= USED 0
+;FILE cgmrun.o
+__asm___8_CgmRun_c____REV16 <= USED 0
+__asm___8_CgmRun_c____REVSH <= USED 0
+;FILE chinamobileredtea.o
+__asm___19_ChinaMobileRedTea_c____REV16 <= USED 0
+__asm___19_ChinaMobileRedTea_c____REVSH <= USED 0
+;FILE chipfunction.o
+GetChipUID <= USED 0
+IrqEntry1_Process <= USED 0
+IrqEntry2_Process <= USED 0
+IrqEntry3_Process <= USED 0
+IrqEntry4_Process <= USED 0
+IrqEntry5_Process <= USED 0
+IrqEntry6_Process <= USED 0
+IrqEntry7_Process <= USED 0
+IrqEntry8_Process <= USED 0
+IrqEntry9_Process <= USED 0
+Rng_GetRandomWord <= USED 0
+Rng_Init <= USED 0
+_HalRamCopy <= USED 0
+__asm___14_ChipFunction_c_28722a39____REV16 <= USED 0
+__asm___14_ChipFunction_c_28722a39____REVSH <= USED 0
+appMain_Process <= USED 0
+delayNclock <= USED 0
+ecpAModB <= USED 0
+;FILE chn_manager.o
+__asm___13_chn_manager_c_bc188d45____REV16 <= USED 0
+__asm___13_chn_manager_c_bc188d45____REVSH <= USED 0
+getSecurityLevel <= USED 0
+isContextSelected <= USED 0
+;FILE clprotocolmngt.o
+__asm___16_CLProtocolMngt_c____REV16 <= USED 0
+__asm___16_CLProtocolMngt_c____REVSH <= USED 0
+;FILE cmccapiimpl.o
+__asm___13_CMCCAPIImpl_c____REV16 <= USED 0
+__asm___13_CMCCAPIImpl_c____REVSH <= USED 0
+;FILE compactmanage.o
+GetTlvLValue <= USED 0
+GetTlvTandLBytes <= USED 0
+IF_ChinaTelecom_RealNetWorkSSD <= USED 0
+__asm___15_CompactManage_c_c121678d____REV16 <= USED 0
+__asm___15_CompactManage_c_c121678d____REVSH <= USED 0
+;FILE contentmanager.o
+__asm___16_contentManager_c_initAID____REV16 <= USED 0
+__asm___16_contentManager_c_initAID____REVSH <= USED 0
+setAppletCountLocked <= USED 0
+setPkgCountLocked <= USED 0
+;FILE context.o
+__asm___9_context_c_fetchInt____REV16 <= USED 0
+__asm___9_context_c_fetchInt____REVSH <= USED 0
+;FILE crc_hal.o
+CRCHardwareInit <= USED 0
+__asm___9_CRC_HAL_c_451ff234____REV16 <= USED 0
+__asm___9_CRC_HAL_c_451ff234____REVSH <= USED 0
+;FILE createjavabuffer.o
+__asm___18_CreateJavaBuffer_c____REV16 <= USED 0
+__asm___18_CreateJavaBuffer_c____REVSH <= USED 0
+;FILE creatfile.o
+CompareExpandValueInFile <= USED 0
+__asm___11_CreatFile_c_27c1ae7d____REV16 <= USED 0
+__asm___11_CreatFile_c_27c1ae7d____REVSH <= USED 0
+;FILE crypto_api.o
+__asm___12_Crypto_API_c_74f5b1ec____REV16 <= USED 0
+__asm___12_Crypto_API_c_74f5b1ec____REVSH <= USED 0
+;FILE crypto_common_api.o
+BigData_Add <= USED 0
+BigData_Padding <= USED 0
+BigData_Sub <= USED 0
+Get_crc16WithIV <= USED 0
+__asm___19_Crypto_common_API_c_a78d5c0d____REV16 <= USED 0
+__asm___19_Crypto_common_API_c_a78d5c0d____REVSH <= USED 0
+dataReversal <= USED 0
+ecpAAddB <= USED 0
+ecpAAddBModC <= USED 0
+ecpAAddConst <= USED 0
+ecpACompareB <= USED 0
+ecpAInvModC <= USED 0
+ecpAInvMultBModC <= USED 0
+ecpAMulBModC <= USED 0
+ecpASubBModC <= USED 0
+ecpAXorB <= USED 0
+ecpAXorConst <= USED 0
+ecpAXorGetChecksum <= USED 0
+ecpBigNum <= USED 0
+ecpIsRsaInProgress <= USED 0
+ecpMem_ReflectChar <= USED 0
+ecpRsaRestart <= USED 0
+ecpRsaSuspend <= USED 0
+random_delay <= USED 0
+reflectChar <= USED 0
+;FILE crypto_impl.o
+GeneralHMACNM <= USED 0
+__asm___13_crypto_impl_c_4888cfe4____REV16 <= USED 0
+__asm___13_crypto_impl_c_4888cfe4____REVSH <= USED 0
+;FILE crypto_softaead.o
+__asm___17_Crypto_SoftAEAD_c____REV16 <= USED 0
+__asm___17_Crypto_SoftAEAD_c____REVSH <= USED 0
+;FILE crypto_softaes.o
+__asm___16_Crypto_SoftAES_c____REV16 <= USED 0
+__asm___16_Crypto_SoftAES_c____REVSH <= USED 0
+;FILE crypto_softdes.o
+__asm___16_Crypto_SoftDES_c____REV16 <= USED 0
+__asm___16_Crypto_SoftDES_c____REVSH <= USED 0
+;FILE crypto_softkoreanseed.o
+__asm___23_Crypto_softKOREANSEED_c____REV16 <= USED 0
+__asm___23_Crypto_softKOREANSEED_c____REVSH <= USED 0
+;FILE crypto_softmd.o
+;FILE crypto_softsm4.o
+__asm___16_Crypto_SoftSM4_c____REV16 <= USED 0
+__asm___16_Crypto_SoftSM4_c____REVSH <= USED 0
+;FILE csimapiimpl.o
+__asm___13_CSIMApiImpl_c____REV16 <= USED 0
+__asm___13_CSIMApiImpl_c____REVSH <= USED 0
+;FILE curve25519.o
+__ARM_common_ll_mulss <= USED 0
+curve25519_dh_CalculatePublicKey <= USED 0
+curve25519_dh_CreateSharedKey <= USED 0
+curve25519_donna <= USED 0
+;FILE cvm.o
+__asm___5_CVM_c_34146463____REV16 <= USED 0
+__asm___5_CVM_c_34146463____REVSH <= USED 0
+;FILE datamanager.o
+GetSDGeneraldata <= USED 0
+__asm___13_dataManager_c_79317041____REV16 <= USED 0
+__asm___13_dataManager_c_79317041____REVSH <= USED 0
+;FILE dataorientedcommand.o
+MoreDataExpected <= USED 0
+__asm___21_DataOrientedCommand_c_1d27993c____REV16 <= USED 0
+__asm___21_DataOrientedCommand_c_1d27993c____REVSH <= USED 0
+;FILE dh_hal.o
+__asm___8_DH_HAL_c____REV16 <= USED 0
+__asm___8_DH_HAL_c____REVSH <= USED 0
+;FILE dns.o
+DNSByME_StartTimer <= USED 0
+DNS_HTTPSAnalyseTriggerPara <= USED 0
+InitializeDNSFromMETryCounter <= USED 0
+InitializeSessionTryCounter <= USED 0
+__asm___5_DNS_c_71d6dc95____REV16 <= USED 0
+__asm___5_DNS_c_71d6dc95____REVSH <= USED 0
+fetchDNSIPListFromME <= USED 0
+isSupportDNSFromMEMechanism <= USED 0
+openChannel_ConnectDNSIP <= USED 0
+openChannel_ConnectRASIP <= USED 0
+;FILE dtrspace.o
+__asm___10_dtrSpace_c_41e952ab____REV16 <= USED 0
+__asm___10_dtrSpace_c_41e952ab____REVSH <= USED 0
+;FILE eapauthentication.o
+__asm___19_EapAuthentication_c_85ae8256____REV16 <= USED 0
+__asm___19_EapAuthentication_c_85ae8256____REVSH <= USED 0
+;FILE ecpdefine.o
+__asm___11_ecpDefine_c_c2806fc3____REV16 <= USED 0
+__asm___11_ecpDefine_c_c2806fc3____REVSH <= USED 0
+htoj16 <= USED 0
+htoj32 <= USED 0
+;FILE ellipsecurve_api.o
+__asm___18_EllipseCurve_API_c_ac1baf9f____REV16 <= USED 0
+__asm___18_EllipseCurve_API_c_ac1baf9f____REVSH <= USED 0
+;FILE ellipsecurve_hal.o
+ECPointAdd <= USED 0
+ECPointSub <= USED 0
+PublicKeyComputeYFromX <= USED 0
+SM2_ECP_GetT <= USED 0
+SM2_ECP_GetU <= USED 0
+SM2_ECP_Getw <= USED 0
+SM2_ECP_TransX_toX1 <= USED 0
+__asm___18_EllipseCurve_HAL_c_14c829bf____REV16 <= USED 0
+__asm___18_EllipseCurve_HAL_c_14c829bf____REVSH <= USED 0
+bigsmallendianswitch <= USED 0
+;FILE error.o
+__asm___7_error_c_636b0886____REV16 <= USED 0
+__asm___7_error_c_636b0886____REVSH <= USED 0
+;FILE euiccconfig.o
+JcvmConfig_GetSERtpBase <= USED 0
+__asm___13_euiccConfig_c_a9e7d48b____REV16 <= USED 0
+__asm___13_euiccConfig_c_a9e7d48b____REVSH <= USED 0
+markDeleteProfileNonRootObjects <= USED 0
+;FILE euicccustomer.o
+__asm___15_EUICCCustomer_c_ddd74940____REV16 <= USED 0
+__asm___15_EUICCCustomer_c_ddd74940____REVSH <= USED 0
+;FILE euicccustomercertificate.o
+GPCertificate_Check7F49Valid <= USED 0
+__asm___26_EUICCCustomerCertificate_c_c8a602b3____REV16 <= USED 0
+__asm___26_EUICCCustomerCertificate_c_c8a602b3____REVSH <= USED 0
+;FILE euicccustomerpublic.o
+IF_ClearSendFileExtendInfo <= USED 0
+__asm___21_EUICCCustomerPublic_c_527efed0____REV16 <= USED 0
+__asm___21_EUICCCustomerPublic_c_527efed0____REVSH <= USED 0
+;FILE euiccgpdataopertion.o
+__asm___21_EUICCGPDataOpertion_c____REV16 <= USED 0
+__asm___21_EUICCGPDataOpertion_c____REVSH <= USED 0
+;FILE euiccinterface.o
+__asm___16_EUICCInterface_c_f553c11c____REV16 <= USED 0
+__asm___16_EUICCInterface_c_f553c11c____REVSH <= USED 0
+;FILE euiccm2mapdu.o
+__asm___14_EUICCM2MAPDU_c____REV16 <= USED 0
+__asm___14_EUICCM2MAPDU_c____REVSH <= USED 0
+;FILE euiccm2mapdupublic.o
+__asm___20_EUICCM2MAPDUPublic_c____REV16 <= USED 0
+__asm___20_EUICCM2MAPDUPublic_c____REVSH <= USED 0
+;FILE euiccmain.o
+__asm___11_EUICCMain_c_cc8eaf56____REV16 <= USED 0
+__asm___11_EUICCMain_c_cc8eaf56____REVSH <= USED 0
+;FILE euiccpersonalapdu.o
+__asm___19_EUICCPersonalAPDU_c_d7e34b9b____REV16 <= USED 0
+__asm___19_EUICCPersonalAPDU_c_d7e34b9b____REVSH <= USED 0
+;FILE euiccprofile.o
+GetCertType <= USED 0
+IsProfileValid <= USED 0
+SetCertType <= USED 0
+__asm___14_EUICCProfile_c_c3411ba7____REV16 <= USED 0
+__asm___14_EUICCProfile_c_c3411ba7____REVSH <= USED 0
+;FILE euiccram.o
+__asm___10_EUICCRAM_c_4d94e5ff____REV16 <= USED 0
+__asm___10_EUICCRAM_c_4d94e5ff____REVSH <= USED 0
+;FILE except.o
+__asm___8_except_c_e2c6b6ee____REV16 <= USED 0
+__asm___8_except_c_e2c6b6ee____REVSH <= USED 0
+;FILE expandedmanage.o
+__asm___16_ExpandedManage_c_20780658____REV16 <= USED 0
+__asm___16_ExpandedManage_c_20780658____REVSH <= USED 0
+;FILE exteralcommand.o
+UpdateFile <= USED 0
+__asm___16_exteralcommand_c_f70e046c____REV16 <= USED 0
+__asm___16_exteralcommand_c_f70e046c____REVSH <= USED 0
+;FILE fileaction.o
+SelectLFFileWithMfStart <= USED 0
+SelectProcessingProfileLFFile <= USED 0
+__asm___12_fileAction_c_1c5481a5____REV16 <= USED 0
+__asm___12_fileAction_c_1c5481a5____REVSH <= USED 0
+;FILE firewall.o
+__asm___10_firewall_c_20c47b6e____REV16 <= USED 0
+__asm___10_firewall_c_20c47b6e____REVSH <= USED 0
+;FILE flashbackup.o
+__asm___13_FlashBackUp_c_5d7643d8____REV16 <= USED 0
+__asm___13_FlashBackUp_c_5d7643d8____REVSH <= USED 0
+isWeakWrite <= USED 0
+;FILE flashbackuppageb.o
+__asm___18_FlashBackUpPageB_c____REV16 <= USED 0
+__asm___18_FlashBackUpPageB_c____REVSH <= USED 0
+;FILE fm01_keydata.o
+__asm___14_fm01_keyData_c____REV16 <= USED 0
+__asm___14_fm01_keyData_c____REVSH <= USED 0
+;FILE fm02_keydata.o
+FM02_setKeyAttr <= USED 0
+__asm___14_fm02_keyData_c_560250b0____REV16 <= USED 0
+__asm___14_fm02_keyData_c_560250b0____REVSH <= USED 0
+;FILE fm03_keydata.o
+__asm___14_fm03_KeyData_c_34643977____REV16 <= USED 0
+__asm___14_fm03_KeyData_c_34643977____REVSH <= USED 0
+;FILE freetable.o
+FreeTable_GetMaxEntryNum <= USED 0
+FreeTable_GetObjectIdFoundNVM <= USED 0
+FreeTable_GetPtr <= USED 0
+FreeTable_GetStart <= USED 0
+FreeTable_IsFull <= USED 0
+FreeTable_SetObjectIdFoundNVM <= USED 0
+FreeTable_SetStateNvm <= USED 0
+__asm___11_FreeTable_c_8e67d411____REV16 <= USED 0
+__asm___11_FreeTable_c_8e67d411____REVSH <= USED 0
+;FILE freetableresize.o
+FreeTableResize_Main <= USED 0
+__asm___17_FreeTableResize_c_d37e7fb6____REV16 <= USED 0
+__asm___17_FreeTableResize_c_d37e7fb6____REVSH <= USED 0
+;FILE funentryconfig.o
+__asm___16_FunEntryConfig_c____REV16 <= USED 0
+__asm___16_FunEntryConfig_c____REVSH <= USED 0
+;FILE funimp.o
+BootLoader_Cpy <= USED 0
+__asm___8_FunImp_c_14494735____REV16 <= USED 0
+__asm___8_FunImp_c_14494735____REVSH <= USED 0
+;FILE gc_main.o
+__asm___9_gc_main_c_5c8f7e75____REV16 <= USED 0
+__asm___9_gc_main_c_5c8f7e75____REVSH <= USED 0
+markUpgradeOnSaveObjects <= USED 0
+;FILE global_variable.o
+__asm___17_global_variable_c_rData1____REV16 <= USED 0
+__asm___17_global_variable_c_rData1____REVSH <= USED 0
+;FILE gpannexbadminsessionpara.o
+GetSDAdminSessionParaTagOffet <= USED 0
+StoreInstallforInstallSDAdmSessionParameter <= USED 0
+__asm___26_GPAnnexbAdminSessionPara_c_4d301f97____REV16 <= USED 0
+__asm___26_GPAnnexbAdminSessionPara_c_4d301f97____REVSH <= USED 0
+;FILE grt.o
+__asm___5_grt_c_3212a8a1____REV16 <= USED 0
+__asm___5_grt_c_3212a8a1____REVSH <= USED 0
+;FILE gsmchvmanagement.o
+__asm___18_gsmChvManagement_c_8d9ac666____REV16 <= USED 0
+__asm___18_gsmChvManagement_c_8d9ac666____REVSH <= USED 0
+;FILE gsmfuction.o
+__asm___12_gsmfuction_c_1e727d1c____REV16 <= USED 0
+__asm___12_gsmfuction_c_1e727d1c____REVSH <= USED 0
+;FILE gsmpublic.o
+__asm___11_gsmpublic_c_783cce2c____REV16 <= USED 0
+__asm___11_gsmpublic_c_783cce2c____REVSH <= USED 0
+;FILE hard_api.o
+__asm___10_hard_api_c_c84c27f6____REV16 <= USED 0
+__asm___10_hard_api_c_c84c27f6____REVSH <= USED 0
+;FILE hash_api.o
+__asm___10_HASH_API_c_250866b0____REV16 <= USED 0
+__asm___10_HASH_API_c_250866b0____REVSH <= USED 0
+;FILE hash_md_hal.o
+;FILE hash_sha1_hal.o
+__asm___15_HASH_SHA1_HAL_c_aea1ba88____REV16 <= USED 0
+__asm___15_HASH_SHA1_HAL_c_aea1ba88____REVSH <= USED 0
+;FILE hash_sha224_hal.o
+SHA224Transform <= USED 0
+__asm___17_HASH_SHA224_HAL_c_a08a43e1____REV16 <= USED 0
+__asm___17_HASH_SHA224_HAL_c_a08a43e1____REVSH <= USED 0
+;FILE hash_sha256_hal.o
+SHA256Transform <= USED 0
+__asm___17_HASH_SHA256_HAL_c_8d44865f____REV16 <= USED 0
+__asm___17_HASH_SHA256_HAL_c_8d44865f____REVSH <= USED 0
+;FILE hash_sha384_hal.o
+__asm___17_HASH_SHA384_HAL_c____REV16 <= USED 0
+__asm___17_HASH_SHA384_HAL_c____REVSH <= USED 0
+;FILE hash_sha512_hal.o
+__asm___17_HASH_SHA512_HAL_c____REV16 <= USED 0
+__asm___17_HASH_SHA512_HAL_c____REVSH <= USED 0
+;FILE hash_sm3_hal.o
+__asm___14_HASH_SM3_HAL_c____REV16 <= USED 0
+__asm___14_HASH_SM3_HAL_c____REVSH <= USED 0
+;FILE hmac_api.o
+__asm___10_HMAC_API_c_HMACInit____REV16 <= USED 0
+__asm___10_HMAC_API_c_HMACInit____REVSH <= USED 0
+;FILE httpprocess.o
+__asm___13_HttpProcess_c_16923c65____REV16 <= USED 0
+__asm___13_HttpProcess_c_16923c65____REVSH <= USED 0
+;FILE i2chal.o
+__asm___8_I2cHal_c____REV16 <= USED 0
+__asm___8_I2cHal_c____REVSH <= USED 0
+;FILE interface_annexb.o
+IF_AnnexB_UPCOS_Session_Start <= USED 0
+IF_UPCOS_HTTPSAnalyseTriggerPara <= USED 0
+IF_UPCOS_PendingHTTPAlert <= USED 0
+__asm___18_Interface_AnnexB_c_14ea917c____REV16 <= USED 0
+__asm___18_Interface_AnnexB_c_14ea917c____REVSH <= USED 0
+;FILE interface_boot.o
+IF_IoUart_isActived <= USED 0
+;FILE interface_cattp.o
+__asm___17_Interface_CATTP_c____REV16 <= USED 0
+__asm___17_Interface_CATTP_c____REVSH <= USED 0
+;FILE interface_dns.o
+__asm___15_Interface_DNS_c_e191a4bd____REV16 <= USED 0
+__asm___15_Interface_DNS_c_e191a4bd____REVSH <= USED 0
+;FILE interface_ltefromplatform.o
+GetProfileIndexByISDPTar <= USED 0
+IF_GetCATTPPara <= USED 0
+IF_Get_EUICCEID <= USED 0
+IF_M2M_DeleteProfilePE <= USED 0
+__asm___27_Interface_LTEFromPlatform_c_0832a9b7____REV16 <= USED 0
+__asm___27_Interface_LTEFromPlatform_c_0832a9b7____REVSH <= USED 0
+;FILE interface_platformfromlte.o
+IF_GetFileSystemUsedSize <= USED 0
+IF_GetRAMProfileIndex <= USED 0
+IF_GetScp80Dek <= USED 0
+IF_SupportContactlessByProfileIndex <= USED 0
+__asm___27_Interface_PlatformFromLTE_c_54006530____REV16 <= USED 0
+__asm___27_Interface_PlatformFromLTE_c_54006530____REVSH <= USED 0
+;FILE interface_timermodule.o
+__asm___23_Interface_TimerModule_c_2db47ba9____REV16 <= USED 0
+__asm___23_Interface_TimerModule_c_2db47ba9____REVSH <= USED 0
+;FILE interpreter.o
+__asm___13_interpreter_c_run____REV16 <= USED 0
+__asm___13_interpreter_c_run____REVSH <= USED 0
+;FILE interrupt.o
+FLASH1_IRQHandler <= USED 0
+FLASH2_IRQHandler <= USED 0
+PUF_IRQHandler <= USED 0
+RNG_IRQHandler <= USED 0
+SCIRST_IRQHandler <= USED 0
+SCIReceive_IRQHandler <= USED 0
+SMU_IRQHandler <= USED 0
+Timer0_IRQHandler <= USED 0
+WDT_IRQHandler <= USED 0
+__asm___11_interrupt_c_ab822159____REV16 <= USED 0
+__asm___11_interrupt_c_ab822159____REVSH <= USED 0
+halt_handler <= USED 0
+;FILE io.o
+__asm___4_Io_c_6e2579e0____REV16 <= USED 0
+__asm___4_Io_c_6e2579e0____REVSH <= USED 0
+io_GetIoBuffer <= USED 0
+io_SetCurrentProtocol <= USED 0
+;FILE io_14443tal3.o
+__asm___14_Io_14443TaL3_c____REV16 <= USED 0
+__asm___14_Io_14443TaL3_c____REVSH <= USED 0
+;FILE io_14443tal4.o
+__asm___14_Io_14443TaL4_c_14747c4d____REV16 <= USED 0
+__asm___14_Io_14443TaL4_c_14747c4d____REVSH <= USED 0
+;FILE io_7816t0.o
+__asm___11_Io_7816T0_c_2ab9ff57____REV16 <= USED 0
+__asm___11_Io_7816T0_c_2ab9ff57____REVSH <= USED 0
+iso7816T0_GetT0Control <= USED 0
+iso7816T0_IsSend616C_ext <= USED 0
+iso7816T0_SetT0Control <= USED 0
+;FILE io_7816t1.o
+__asm___11_Io_7816T1_c____REV16 <= USED 0
+__asm___11_Io_7816T1_c____REVSH <= USED 0
+;FILE io_i2c.o
+__asm___8_Io_I2C_c____REV16 <= USED 0
+__asm___8_Io_I2C_c____REVSH <= USED 0
+;FILE io_interface.o
+__asm___14_Io_interface_c____REV16 <= USED 0
+__asm___14_Io_interface_c____REVSH <= USED 0
+;FILE io_protocol.o
+__asm___13_Io_Protocol_c____REV16 <= USED 0
+__asm___13_Io_Protocol_c____REVSH <= USED 0
+;FILE io_spi.o
+__asm___8_Io_SPI_c____REV16 <= USED 0
+__asm___8_Io_SPI_c____REVSH <= USED 0
+;FILE io_swp.o
+__asm___8_Io_Swp_c____REV16 <= USED 0
+__asm___8_Io_Swp_c____REVSH <= USED 0
+;FILE io_uart.o
+IoUart_Busy <= USED 0
+IoUart_ClearFifo <= USED 0
+IoUart_GetF <= USED 0
+IoUart_isActived <= USED 0
+__asm___9_Io_Uart_c_c86e586c____REV16 <= USED 0
+__asm___9_Io_Uart_c_c86e586c____REVSH <= USED 0
+;FILE iobuffer.o
+__asm___10_IoBuffer_c_IoBuffer____REV16 <= USED 0
+__asm___10_IoBuffer_c_IoBuffer____REVSH <= USED 0
+;FILE javauiccapi.o
+__asm___13_javaUiccAPI_c_d3cf37f5____REV16 <= USED 0
+__asm___13_javaUiccAPI_c_d3cf37f5____REVSH <= USED 0
+;FILE jcvm_nvm.o
+__asm___10_Jcvm_Nvm_c____REV16 <= USED 0
+__asm___10_Jcvm_Nvm_c____REVSH <= USED 0
+;FILE jcvmconfig.o
+__asm___12_JcvmConfig_c_c03fecf2____REV16 <= USED 0
+__asm___12_JcvmConfig_c_c03fecf2____REVSH <= USED 0
+;FILE jcvmconfigmethod.o
+JcvmConfig_GetConstructAuthChipBase <= USED 0
+JcvmConfig_GetSaveTransFlagAreaBase <= USED 0
+__asm___18_jcvmConfigMethod_c_d862c9ea____REV16 <= USED 0
+__asm___18_jcvmConfigMethod_c_d862c9ea____REVSH <= USED 0
+dealWithPseudoRandom <= USED 0
+getData_FF32 <= USED 0
+;FILE jcvmdataconfig.o
+__asm___16_JcvmDataConfig_c_9e8b0c1a____REV16 <= USED 0
+__asm___16_JcvmDataConfig_c_9e8b0c1a____REVSH <= USED 0
+;FILE jcvminit.o
+__asm___10_JcvmInit_c_os_init____REV16 <= USED 0
+__asm___10_JcvmInit_c_os_init____REVSH <= USED 0
+;FILE keccak.o
+;FILE keydata.o
+__asm___9_keyData_c_32c5cbd4____REV16 <= USED 0
+__asm___9_keyData_c_32c5cbd4____REVSH <= USED 0
+;FILE keyextdata.o
+__asm___12_keyExtData_c_03ef3e88____REV16 <= USED 0
+__asm___12_keyExtData_c_03ef3e88____REVSH <= USED 0
+;FILE keygroup.o
+__asm___10_keyGroup_c_0e0aecad____REV16 <= USED 0
+__asm___10_keyGroup_c_0e0aecad____REVSH <= USED 0
+;FILE keylogicmanager.o
+__asm___17_KeyLogicManager_c_8ad557fd____REV16 <= USED 0
+__asm___17_KeyLogicManager_c_8ad557fd____REVSH <= USED 0
+getCounterAddrByVersion <= USED 0
+keyData_fetchKey <= USED 0
+resetAllCounter <= USED 0
+;FILE keymanager.o
+__asm___12_keyManager_c_2694a7c4____REV16 <= USED 0
+__asm___12_keyManager_c_2694a7c4____REVSH <= USED 0
+cipherKey <= USED 0
+getKeyNM <= USED 0
+;FILE keymanagerold.o
+DelAllKeySets <= USED 0
+GetSdKeyNum <= USED 0
+__asm___15_KeyManagerOld_c_a0173c66____REV16 <= USED 0
+__asm___15_KeyManagerOld_c_a0173c66____REVSH <= USED 0
+getCounter <= USED 0
+getDefaultKeyVersion <= USED 0
+getKeyInfo <= USED 0
+setCounter <= USED 0
+storeKeyData <= USED 0
+;FILE keyset.o
+GetFirstFullKey <= USED 0
+__asm___8_keySet_c_9ca37795____REV16 <= USED 0
+__asm___8_keySet_c_9ca37795____REVSH <= USED 0
+keySet_ResetAllKeyCountByScpType <= USED 0
+keySet_deleteAllScKey <= USED 0
+keySet_getMaxKeyVersion <= USED 0
+keySet_incTryAuthAttenpt <= USED 0
+keySet_newKeySetBySCPType <= USED 0
+;FILE lifecycle.o
+__asm___11_lifecycle_c_68b23877____REV16 <= USED 0
+__asm___11_lifecycle_c_68b23877____REVSH <= USED 0
+;FILE livewirtecardxl.o
+__asm___17_LiveWirteCardXL_c____REV16 <= USED 0
+__asm___17_LiveWirteCardXL_c____REVSH <= USED 0
+;FILE loader.o
+__asm___8_Loader_c_ccbaba48____REV16 <= USED 0
+__asm___8_Loader_c_ccbaba48____REVSH <= USED 0
+;FILE localkey.o
+__asm___10_LocalKey_c_bd494d54____REV16 <= USED 0
+__asm___10_LocalKey_c_bd494d54____REVSH <= USED 0
+;FILE lteapi.o
+__asm___8_LteAPI_c____REV16 <= USED 0
+__asm___8_LteAPI_c____REVSH <= USED 0
+;FILE main.o
+__asm___6_main_c_main____REV16 <= USED 0
+__asm___6_main_c_main____REVSH <= USED 0
+;FILE mask.o
+__asm___6_mask_c_rommask____REV16 <= USED 0
+__asm___6_mask_c_rommask____REVSH <= USED 0
+;FILE mbms.o
+__asm___6_Mbms_c_dc2b9c0d____REV16 <= USED 0
+__asm___6_Mbms_c_dc2b9c0d____REVSH <= USED 0
+;FILE membackup.o
+__asm___11_MemBackUp_c_029bc795____REV16 <= USED 0
+__asm___11_MemBackUp_c_029bc795____REVSH <= USED 0
+;FILE membackuppageb.o
+__asm___16_MemBackUpPageB_c____REV16 <= USED 0
+__asm___16_MemBackUpPageB_c____REVSH <= USED 0
+;FILE membackupserve.o
+__asm___16_MemBackUpServe_c_6bc76b03____REV16 <= USED 0
+__asm___16_MemBackUpServe_c_6bc76b03____REVSH <= USED 0
+;FILE membackupservepageb.o
+__asm___21_MemBackUpServePageB_c____REV16 <= USED 0
+__asm___21_MemBackUpServePageB_c____REVSH <= USED 0
+;FILE memgetreuseram.o
+__asm___16_MemGetReuseRam_c____REV16 <= USED 0
+__asm___16_MemGetReuseRam_c____REVSH <= USED 0
+;FILE memnvmoperation.o
+__asm___17_MemNvmOperation_c_a95ed546____REV16 <= USED 0
+__asm___17_MemNvmOperation_c_a95ed546____REVSH <= USED 0
+;FILE memoperation.o
+__asm___14_MemOperation_c_75917888____REV16 <= USED 0
+__asm___14_MemOperation_c_75917888____REVSH <= USED 0
+memCompareU16 <= USED 0
+memCompareU32 <= USED 0
+memCompareWithStatus <= USED 0
+nvmClearNoCache <= USED 0
+nvmCopyNoCache <= USED 0
+nvmFillNoCache <= USED 0
+writeEeprom <= USED 0
+;FILE memoperationserve.o
+__asm___19_MemOperationServe_c_5f61d320____REV16 <= USED 0
+__asm___19_MemOperationServe_c_5f61d320____REVSH <= USED 0
+;FILE memory.o
+__asm___8_memory_c_init_RAM____REV16 <= USED 0
+__asm___8_memory_c_init_RAM____REVSH <= USED 0
+reset_transaction_buffer <= USED 0
+;FILE method.o
+__asm___8_method_c_5d02705a____REV16 <= USED 0
+__asm___8_method_c_5d02705a____REVSH <= USED 0
+;FILE mh_25519.o
+MHX25519_CompleteKey <= USED 0
+__asm___10_mh_25519_c_4c0572ef____REV16 <= USED 0
+__asm___10_mh_25519_c_4c0572ef____REVSH <= USED 0
+;FILE mh_aes.o
+MHAES_CMAC <= USED 0
+MHAES_GetVersion <= USED 0
+__asm___8_mh_aes_c_bd0faf54____REV16 <= USED 0
+__asm___8_mh_aes_c_bd0faf54____REVSH <= USED 0
+;FILE mh_bignum.o
+MHBN_Add <= USED 0
+MHBN_AddOne <= USED 0
+MHBN_AddU32 <= USED 0
+MHBN_BnAdd <= USED 0
+MHBN_BnCmp <= USED 0
+MHBN_BnDiv <= USED 0
+MHBN_BnModAdd <= USED 0
+MHBN_BnModExp <= USED 0
+MHBN_BnModInv <= USED 0
+MHBN_BnModMul <= USED 0
+MHBN_BnModSub <= USED 0
+MHBN_BnMul <= USED 0
+MHBN_BnSub <= USED 0
+MHBN_HalfLenMul <= USED 0
+MHBN_ItemCmpIntEfc <= USED 0
+MHBN_LSB <= USED 0
+MHBN_MSB <= USED 0
+MHBN_ModExp <= USED 0
+MHBN_ModInvSoft <= USED 0
+MHBN_MontMod <= USED 0
+MHBN_Neg <= USED 0
+MHBN_ShiftLH <= USED 0
+MHBN_SubOne <= USED 0
+MHBN_SubU32 <= USED 0
+MHBN_Xor <= USED 0
+__asm___11_mh_bignum_c_MHBN_Add____REV16 <= USED 0
+__asm___11_mh_bignum_c_MHBN_Add____REVSH <= USED 0
+;FILE mh_cryptcfg.o
+MHCRYPT_ASYMCITClear <= USED 0
+MHCRYPT_GetVersion <= USED 0
+MHCRYPT_SYMCITClear <= USED 0
+MHCRYPT_SetBusKey <= USED 0
+__asm___13_mh_cryptcfg_c_4f6b7443____REV16 <= USED 0
+__asm___13_mh_cryptcfg_c_4f6b7443____REVSH <= USED 0
+;FILE mh_des.o
+MHDES_GetVersion <= USED 0
+__asm___8_mh_des_c_39acc139____REV16 <= USED 0
+__asm___8_mh_des_c_39acc139____REVSH <= USED 0
+;FILE mh_ecc.o
+MHECC_CompleteKey <= USED 0
+MHECC_EciesDec <= USED 0
+MHECC_EciesEnc <= USED 0
+MHECC_GetVersion <= USED 0
+MHECC_PointCompress <= USED 0
+__asm___8_mh_ecc_c_085e126e____REV16 <= USED 0
+__asm___8_mh_ecc_c_085e126e____REVSH <= USED 0
+;FILE mh_eccpoint.o
+MHECC_PointAdd <= USED 0
+__asm___13_mh_eccpoint_c_abb34345____REV16 <= USED 0
+__asm___13_mh_eccpoint_c_abb34345____REVSH <= USED 0
+;FILE mh_misc.o
+MHMEM_Equal <= USED 0
+MHMEM_SEqual <= USED 0
+__asm___9_mh_misc_c_8c664293____REV16 <= USED 0
+__asm___9_mh_misc_c_8c664293____REVSH <= USED 0
+;FILE mh_rand.o
+__asm___9_mh_rand_c_3f1983c1____REV16 <= USED 0
+__asm___9_mh_rand_c_3f1983c1____REVSH <= USED 0
+;FILE mh_sha.o
+MHSHA384_Finish <= USED 0
+MHSHA384_Starts <= USED 0
+MHSHA384_Update <= USED 0
+MHSHA512_Finish <= USED 0
+MHSHA512_Starts <= USED 0
+MHSHA512_Update <= USED 0
+MHSHA_Sha <= USED 0
+__asm___8_mh_sha_c_2a60dbab____REV16 <= USED 0
+__asm___8_mh_sha_c_2a60dbab____REVSH <= USED 0
+;FILE mhcard_flash.o
+FLASH_EccConfig <= USED 0
+FLASH_ITConfig <= USED 0
+FLASH_InfoEn <= USED 0
+FLASH_ProgramWord <= USED 0
+FLASH_SetAllRO <= USED 0
+FLASH_SetRO <= USED 0
+FLASH_SetROL <= USED 0
+FLASH_SetSRO <= USED 0
+FLASH_SetSROL <= USED 0
+FLASH_SleepConfig <= USED 0
+FLASH_StatusIsSet <= USED 0
+__asm___14_mhcard_flash_c_113ea136____REV16 <= USED 0
+__asm___14_mhcard_flash_c_113ea136____REVSH <= USED 0
+;FILE mhcard_iso7816.o
+SCI_BgtCwtEnable <= USED 0
+SCI_ClearFifo <= USED 0
+SCI_ClearIT <= USED 0
+SCI_EdcEnable <= USED 0
+SCI_ExRstIntEdge <= USED 0
+SCI_GetBgtData <= USED 0
+SCI_GetChar <= USED 0
+SCI_GetCwtData <= USED 0
+SCI_GetEdcData <= USED 0
+SCI_GetITStatus <= USED 0
+SCI_GetStatus <= USED 0
+SCI_ITConfig <= USED 0
+SCI_RetryEnable <= USED 0
+SCI_SendChar <= USED 0
+SCI_SetBgtData <= USED 0
+SCI_SetCwtData <= USED 0
+SCI_SetEtuData <= USED 0
+SCI_SetExtraETU <= USED 0
+SCI_SetRetryTimes <= USED 0
+SCI_SetSendNULL <= USED 0
+SCI_SetTMode <= USED 0
+__asm___16_mhcard_iso7816_c_cd811eec____REV16 <= USED 0
+__asm___16_mhcard_iso7816_c_cd811eec____REVSH <= USED 0
+;FILE mhcard_stdio.o
+GPIO_GetChar <= USED 0
+GPIO_PutChar <= USED 0
+GPIO_UARTInitForPrintf <= USED 0
+__asm___14_mhcard_stdio_c_7d7cd9c8____REV16 <= USED 0
+__asm___14_mhcard_stdio_c_7d7cd9c8____REVSH <= USED 0
+fgetc <= USED 0
+fputc <= USED 0
+mhcard_StdIOInit <= USED 0
+;FILE mhcard_sysctrl.o
+SYSCTRL_AlgClkConfig <= USED 0
+SYSCTRL_DMA_ChannelConfig <= USED 0
+SYSCTRL_EnterSleep <= USED 0
+SYSCTRL_FlashDeepConfig <= USED 0
+SYSCTRL_GetClocksFreq <= USED 0
+SYSCTRL_HCLKConfig <= USED 0
+SYSCTRL_PCLKConfig <= USED 0
+SYSCTRL_SYSCLKSourceSelect <= USED 0
+SYSCTRL_TICKRefConfig <= USED 0
+SYSCTRL_WakeMcu <= USED 0
+__asm___16_mhcard_sysctrl_c_6bea2cbd__SYSCTRL_Sleep <= USED 0
+__asm___16_mhcard_sysctrl_c_6bea2cbd____REV16 <= USED 0
+__asm___16_mhcard_sysctrl_c_6bea2cbd____REVSH <= USED 0
+;FILE mhcard_timer.o
+TIM_ClearITPendingBit <= USED 0
+TIM_Cmd <= USED 0
+TIM_DeInit <= USED 0
+TIM_GetAllITStatus <= USED 0
+TIM_GetAllRawITStatus <= USED 0
+TIM_GetITStatus <= USED 0
+TIM_GetRawITStatus <= USED 0
+TIM_ITConfig <= USED 0
+TIM_Init <= USED 0
+TIM_ModeConfig <= USED 0
+TIM_PWMInit <= USED 0
+TIM_SetPWMPeriod <= USED 0
+TIM_SetPeriod <= USED 0
+__asm___14_mhcard_timer_c_c458916b____REV16 <= USED 0
+__asm___14_mhcard_timer_c_c458916b____REVSH <= USED 0
+;FILE mifare.o
+__asm___8_Mifare_c____REV16 <= USED 0
+__asm___8_Mifare_c____REVSH <= USED 0
+;FILE mifarehal.o
+__asm___11_MifareHal_c____REV16 <= USED 0
+__asm___11_MifareHal_c____REVSH <= USED 0
+;FILE milenage.o
+__asm___10_Milenage_c_Rotata____REV16 <= USED 0
+__asm___10_Milenage_c_Rotata____REVSH <= USED 0
+;FILE misc.o
+NVIC_Init <= USED 0
+NVIC_SetVectorTable <= USED 0
+__asm___6_misc_c_c60eb25e____REV16 <= USED 0
+__asm___6_misc_c_c60eb25e____REVSH <= USED 0
+;FILE mixmode.o
+__asm___9_MixMode_c____REV16 <= USED 0
+__asm___9_MixMode_c____REVSH <= USED 0
+;FILE native_interface.o
+__asm___18_native_interface_c_0d9dff46____REV16 <= USED 0
+__asm___18_native_interface_c_0d9dff46____REVSH <= USED 0
+;FILE native_interface_javacard305.o
+JavaCard305API_CallNative <= USED 0
+__asm___30_native_interface_JavaCard305_c_588ae53a____REV16 <= USED 0
+__asm___30_native_interface_JavaCard305_c_588ae53a____REVSH <= USED 0
+;FILE nativeappcomponent.o
+__asm___20_NativeAppComponent_c____REV16 <= USED 0
+__asm___20_NativeAppComponent_c____REVSH <= USED 0
+;FILE nativeedithandler.o
+__asm___19_NativeEditHandler_c_438882f4____REV16 <= USED 0
+__asm___19_NativeEditHandler_c_438882f4____REVSH <= USED 0
+;FILE nativeenvelopehandler.o
+__asm___23_NativeEnvelopeHandler_c_93c2218a____REV16 <= USED 0
+__asm___23_NativeEnvelopeHandler_c_93c2218a____REVSH <= USED 0
+;FILE nativeenveloperesponsehandler.o
+__asm___31_NativeEnvelopeResponseHandler_c_d11a7481____REV16 <= USED 0
+__asm___31_NativeEnvelopeResponseHandler_c_d11a7481____REVSH <= USED 0
+;FILE nativemeprofile.o
+__asm___17_NativeMEProfile_c_225f15b7____REV16 <= USED 0
+__asm___17_NativeMEProfile_c_225f15b7____REVSH <= USED 0
+;FILE nativemethod_impl.o
+ClearrfFirstSelectCmdFlag <= USED 0
+__asm___19_nativemethod_impl_c_e9e93848____REV16 <= USED 0
+__asm___19_nativemethod_impl_c_e9e93848____REVSH <= USED 0
+channelManageNM <= USED 0
+compareRemainedSpace <= USED 0
+deleteMifareNM <= USED 0
+getAPI_VERSION <= USED 0
+getMaxPackageIdentifier <= USED 0
+getPkgIdForAddress <= USED 0
+initGC <= USED 0
+isActiveNM <= USED 0
+isHostActiveNM <= USED 0
+nativeMethods_readSecurityCodeDataNative <= USED 0
+setMifareStatusNM <= USED 0
+setPckObject <= USED 0
+;FILE nativemethod_impl_javacard305.o
+__asm___31_nativemethod_impl_JavaCard305_c____REV16 <= USED 0
+__asm___31_nativemethod_impl_JavaCard305_c____REVSH <= USED 0
+;FILE nativeproactivehanlder.o
+__asm___24_NativeProactiveHanlder_c_ba261387____REV16 <= USED 0
+__asm___24_NativeProactiveHanlder_c_ba261387____REVSH <= USED 0
+;FILE nativeproactiveresponsehandler.o
+__asm___32_NativeProactiveResponseHandler_c_eb3dc83f____REV16 <= USED 0
+__asm___32_NativeProactiveResponseHandler_c_eb3dc83f____REVSH <= USED 0
+;FILE nativesimaccess.o
+__asm___17_NativeSimAccess_c_820a51fe____REV16 <= USED 0
+__asm___17_NativeSimAccess_c_820a51fe____REVSH <= USED 0
+;FILE nativetoolkitregistry.o
+__asm___23_NativeToolkitRegistry_c_170c1df6____REV16 <= USED 0
+__asm___23_NativeToolkitRegistry_c_170c1df6____REVSH <= USED 0
+;FILE nativeviewhandler.o
+__asm___19_NativeViewHandler_c_a2dd1b41____REV16 <= USED 0
+__asm___19_NativeViewHandler_c_a2dd1b41____REVSH <= USED 0
+;FILE new_cdma_md5_interface.o
+__asm___24_new_cdma_md5_interface_c_7eb6010b____REV16 <= USED 0
+__asm___24_new_cdma_md5_interface_c_7eb6010b____REVSH <= USED 0
+;FILE nofileshare.o
+IF_NoShareableFileAfterDeSelectApplet <= USED 0
+__asm___13_noFileShare_c_2270294c____REV16 <= USED 0
+__asm___13_noFileShare_c_2270294c____REVSH <= USED 0
+;FILE nvmallocate.o
+__asm___13_NvmAllocate_c_23b7de6f____REV16 <= USED 0
+__asm___13_NvmAllocate_c_23b7de6f____REVSH <= USED 0
+;FILE nvmcompact.o
+NvmCompact_CheckBackUpCapacity <= USED 0
+NvmCompact_GetFlagTableStart <= USED 0
+NvmCompact_InitMoveFlagTable <= USED 0
+__asm___12_NvmCompact_c_45ac9264____REV16 <= USED 0
+__asm___12_NvmCompact_c_45ac9264____REVSH <= USED 0
+;FILE nvmdeallocate.o
+__asm___15_NvmDeallocate_c_b47c036e____REV16 <= USED 0
+__asm___15_NvmDeallocate_c_b47c036e____REVSH <= USED 0
+;FILE nvmhal.o
+__asm___8_NvmHal_c_7bf35af3____REV16 <= USED 0
+__asm___8_NvmHal_c_7bf35af3____REVSH <= USED 0
+ecpNvm_FlashBackUp_RollBackPage <= USED 0
+;FILE nvmmanager.o
+NvmManager_AllocateBlock <= USED 0
+NvmManager_FreeBlock <= USED 0
+NvmManager_GetAppBitMap <= USED 0
+NvmManager_GetTopNvm <= USED 0
+NvmManager_LocateBlock <= USED 0
+NvmManager_ResizeBody <= USED 0
+NvmManager_ResizeObj <= USED 0
+__asm___12_NvmManager_c_d7b4404d____REV16 <= USED 0
+__asm___12_NvmManager_c_d7b4404d____REVSH <= USED 0
+;FILE nvmmap.o
+MapTable_GetAppBitMap <= USED 0
+MapTable_GetAppMap <= USED 0
+__asm___8_NvmMap_c_1586b2b8____REV16 <= USED 0
+__asm___8_NvmMap_c_1586b2b8____REVSH <= USED 0
+;FILE nvmresize.o
+NvmResize_Main <= USED 0
+__asm___11_NvmResize_c_72df0e88____REV16 <= USED 0
+__asm___11_NvmResize_c_72df0e88____REVSH <= USED 0
+;FILE ob_manager.o
+__asm___12_ob_manager_c_27db6927____REV16 <= USED 0
+__asm___12_ob_manager_c_27db6927____REVSH <= USED 0
+;FILE object.o
+__asm___8_object_c_e70fc3fc____REV16 <= USED 0
+__asm___8_object_c_e70fc3fc____REVSH <= USED 0
+checkIsGlobal <= USED 0
+;FILE opcmcal.o
+GetCardSEIDaddr <= USED 0
+__asm___9_OPCMCal_c_5c68f8e9____REV16 <= USED 0
+__asm___9_OPCMCal_c_5c68f8e9____REVSH <= USED 0
+;FILE opelfupgrade.o
+__asm___14_OPELFUpgrade_c_4623a817____REV16 <= USED 0
+__asm___14_OPELFUpgrade_c_4623a817____REVSH <= USED 0
+opElfUpgradeStart <= USED 0
+;FILE opfunction.o
+StoreReceivedCommandAPDU <= USED 0
+__asm___12_opFunction_c_9c6da3dd____REV16 <= USED 0
+__asm___12_opFunction_c_9c6da3dd____REVSH <= USED 0
+;FILE opinstaller.o
+__asm___13_OPInstaller_c_a1b4a538____REV16 <= USED 0
+__asm___13_OPInstaller_c_a1b4a538____REVSH <= USED 0
+;FILE opt_bc_arith.o
+__asm___14_opt_bc_arith_c____REV16 <= USED 0
+__asm___14_opt_bc_arith_c____REVSH <= USED 0
+;FILE opt_bc_array.o
+__asm___14_opt_bc_array_c____REV16 <= USED 0
+__asm___14_opt_bc_array_c____REVSH <= USED 0
+;FILE opt_bc_control.o
+__asm___16_opt_bc_control_c____REV16 <= USED 0
+__asm___16_opt_bc_control_c____REVSH <= USED 0
+;FILE opt_bc_load.o
+__asm___13_opt_bc_load_c____REV16 <= USED 0
+__asm___13_opt_bc_load_c____REVSH <= USED 0
+;FILE opt_bc_stack.o
+__asm___14_opt_bc_stack_c____REV16 <= USED 0
+__asm___14_opt_bc_stack_c____REVSH <= USED 0
+;FILE opt_bc_static.o
+__asm___15_opt_bc_static_c____REV16 <= USED 0
+__asm___15_opt_bc_static_c____REVSH <= USED 0
+;FILE opt_bc_store.o
+__asm___14_opt_bc_store_c____REV16 <= USED 0
+__asm___14_opt_bc_store_c____REVSH <= USED 0
+;FILE opt_firewall.o
+__asm___14_opt_firewall_c____REV16 <= USED 0
+__asm___14_opt_firewall_c____REVSH <= USED 0
+;FILE opt_memoperation.o
+__asm___18_opt_MemOperation_c____REV16 <= USED 0
+__asm___18_opt_MemOperation_c____REVSH <= USED 0
+;FILE opt_method.o
+__asm___12_opt_method_c____REV16 <= USED 0
+__asm___12_opt_method_c____REVSH <= USED 0
+;FILE opt_nativemethod_impl.o
+__asm___23_opt_nativemethod_impl_c____REV16 <= USED 0
+__asm___23_opt_nativemethod_impl_c____REVSH <= USED 0
+;FILE opt_object.o
+__asm___12_opt_object_c____REV16 <= USED 0
+__asm___12_opt_object_c____REVSH <= USED 0
+;FILE optvm.o
+__asm___7_optvm_c____REV16 <= USED 0
+__asm___7_optvm_c____REVSH <= USED 0
+;FILE os_main.o
+__asm___9_os_main_c_os_main____REV16 <= USED 0
+__asm___9_os_main_c_os_main____REVSH <= USED 0
+;FILE packageloc.o
+__asm___12_packageloc_c_498a8560____REV16 <= USED 0
+__asm___12_packageloc_c_498a8560____REVSH <= USED 0
+getPackageIdForAddr <= USED 0
+;FILE patch.o
+__asm___7_Patch_c____REV16 <= USED 0
+__asm___7_Patch_c____REVSH <= USED 0
+;FILE patchhal.o
+FlagHandle <= USED 0
+__asm___10_PatchHal_c_8c46ca55____REV16 <= USED 0
+__asm___10_PatchHal_c_8c46ca55____REVSH <= USED 0
+ecpPatch_BackupOperation <= USED 0
+ecpPatch_RecoveryOperation <= USED 0
+;FILE peakaparameter.o
+__asm___16_PEAKAParameter_c_61632265____REV16 <= USED 0
+__asm___16_PEAKAParameter_c_61632265____REVSH <= USED 0
+;FILE peapplication.o
+__asm___15_PEApplication_c_eec07283____REV16 <= USED 0
+__asm___15_PEApplication_c_eec07283____REVSH <= USED 0
+;FILE pecdmaparameter.o
+__asm___17_PECDMAParameter_c_7c413442____REV16 <= USED 0
+__asm___17_PECDMAParameter_c_7c413442____REVSH <= USED 0
+;FILE peend.o
+__asm___7_PEEnd_c_6a571a1b____REV16 <= USED 0
+__asm___7_PEEnd_c_6a571a1b____REVSH <= USED 0
+;FILE pefilesystem.o
+__asm___14_PEFileSystem_c_acf578ab____REV16 <= USED 0
+__asm___14_PEFileSystem_c_acf578ab____REVSH <= USED 0
+;FILE pegenericfilemanagement.o
+__asm___25_PEGenericFileManagement_c_ba9b50d1____REV16 <= USED 0
+__asm___25_PEGenericFileManagement_c_ba9b50d1____REVSH <= USED 0
+;FILE penonstandard.o
+__asm___15_PENonStandard_c_9f6516fa____REV16 <= USED 0
+__asm___15_PENonStandard_c_9f6516fa____REVSH <= USED 0
+;FILE pepincodes.o
+__asm___12_PEPinCodes_c_d48106f2____REV16 <= USED 0
+__asm___12_PEPinCodes_c_d48106f2____REVSH <= USED 0
+;FILE pepukcodes.o
+__asm___12_PEPukCodes_c_89bd7986____REV16 <= USED 0
+__asm___12_PEPukCodes_c_89bd7986____REVSH <= USED 0
+;FILE perfm.o
+__asm___7_PERFM_c_8b587fae____REV16 <= USED 0
+__asm___7_PERFM_c_8b587fae____REVSH <= USED 0
+;FILE pesecuritydomain.o
+__asm___18_PESecurityDomain_c_a02eba5d____REV16 <= USED 0
+__asm___18_PESecurityDomain_c_a02eba5d____REVSH <= USED 0
+;FILE petemplatefileprocess.o
+__asm___23_PETemplateFileProcess_c_22af8ed1____REV16 <= USED 0
+__asm___23_PETemplateFileProcess_c_22af8ed1____REVSH <= USED 0
+;FILE platform_api.o
+IF_AppSetChannelContext <= USED 0
+__asm___14_platform_api_c_a6ecbb8f____REV16 <= USED 0
+__asm___14_platform_api_c_a6ecbb8f____REVSH <= USED 0
+;FILE prf.o
+__asm___5_Prf_c_76d63314____REV16 <= USED 0
+__asm___5_Prf_c_76d63314____REVSH <= USED 0
+;FILE privatecommand.o
+__asm___16_PrivateCommand_c_beedb618____REV16 <= USED 0
+__asm___16_PrivateCommand_c_beedb618____REVSH <= USED 0
+;FILE profileapi.o
+__asm___12_ProfileAPI_c_bab79dc1____REV16 <= USED 0
+__asm___12_ProfileAPI_c_bab79dc1____REVSH <= USED 0
+getMapFileArrNum <= USED 0
+;FILE profilegpcommand.o
+__asm___18_ProfileGPCommand_c_6f3b3b86____REV16 <= USED 0
+__asm___18_ProfileGPCommand_c_6f3b3b86____REVSH <= USED 0
+;FILE profileheader.o
+__asm___15_ProfileHeader_c_532de8f7____REV16 <= USED 0
+__asm___15_ProfileHeader_c_532de8f7____REVSH <= USED 0
+;FILE profileinterpreter.o
+__asm___20_ProfileInterpreter_c_8b73f0a9____REV16 <= USED 0
+__asm___20_ProfileInterpreter_c_8b73f0a9____REVSH <= USED 0
+;FILE public.o
+__asm___8_public_c_3f7c9515____REV16 <= USED 0
+__asm___8_public_c_3f7c9515____REVSH <= USED 0
+;FILE rammanager.o
+RamManager_getRamBase <= USED 0
+RamManager_getUsedDtrSize <= USED 0
+__asm___12_RamManager_c_42626c48____REV16 <= USED 0
+__asm___12_RamManager_c_42626c48____REVSH <= USED 0
+;FILE reference.o
+__asm___11_reference_c_86447331____REV16 <= USED 0
+__asm___11_reference_c_86447331____REVSH <= USED 0
+;FILE reset.o
+__asm___7_reset_c_4966f196____REV16 <= USED 0
+__asm___7_reset_c_4966f196____REVSH <= USED 0
+;FILE rfhal.o
+__asm___7_RfHal_c____REV16 <= USED 0
+__asm___7_RfHal_c____REVSH <= USED 0
+;FILE rng_hal.o
+Random_number_generator_API <= USED 0
+__asm___9_RNG_HAL_c_8cd88efa____REV16 <= USED 0
+__asm___9_RNG_HAL_c_8cd88efa____REVSH <= USED 0
+genRandomNumber_FourByteAlign <= USED 0
+getDataFromRngCache <= USED 0
+;FILE rsa_api.o
+__asm___9_RSA_API_c____REV16 <= USED 0
+__asm___9_RSA_API_c____REVSH <= USED 0
+;FILE rsa_hal.o
+__asm___9_RSA_HAL_c____REV16 <= USED 0
+__asm___9_RSA_HAL_c____REVSH <= USED 0
+;FILE rtrspace.o
+__asm___10_rtrSpace_c_550b2bac____REV16 <= USED 0
+__asm___10_rtrSpace_c_550b2bac____REVSH <= USED 0
+;FILE scp01.o
+__asm___7_SCP01_c____REV16 <= USED 0
+__asm___7_SCP01_c____REVSH <= USED 0
+;FILE scp02.o
+__asm___7_SCP02_c_465045c9____REV16 <= USED 0
+__asm___7_SCP02_c_465045c9____REVSH <= USED 0
+;FILE scp03.o
+__asm___7_SCP03_c_d846e35b____REV16 <= USED 0
+__asm___7_SCP03_c_d846e35b____REVSH <= USED 0
+;FILE scp03realize.o
+__asm___14_SCP03Realize_c_48bd07c0____REV16 <= USED 0
+__asm___14_SCP03Realize_c_48bd07c0____REVSH <= USED 0
+;FILE scp10.o
+__asm___7_SCP10_c____REV16 <= USED 0
+__asm___7_SCP10_c____REVSH <= USED 0
+;FILE scp11.o
+__asm___7_SCP11_c____REV16 <= USED 0
+__asm___7_SCP11_c____REVSH <= USED 0
+;FILE scp81connection.o
+NM_scp81DiscardRemainingData <= USED 0
+__asm___17_Scp81Connection_c_505ab619____REV16 <= USED 0
+__asm___17_Scp81Connection_c_505ab619____REVSH <= USED 0
+;FILE scpapinativemethod.o
+SCPAPI_resetSecurityOrgApi <= USED 0
+__asm___20_SCPAPINativeMethod_c_78febeac____REV16 <= USED 0
+__asm___20_SCPAPINativeMethod_c_78febeac____REVSH <= USED 0
+;FILE scpdealdata.o
+__asm___13_SCPDealData_c_b72250e3____REV16 <= USED 0
+__asm___13_SCPDealData_c_b72250e3____REVSH <= USED 0
+;FILE scpgenkeyinterface.o
+__asm___20_SCPGenKeyInterface_c_907fef5c____REV16 <= USED 0
+__asm___20_SCPGenKeyInterface_c_907fef5c____REVSH <= USED 0
+generateRDECKey <= USED 0
+generateRENCKey <= USED 0
+;FILE scpinteface.o
+RAMRemoteInit <= USED 0
+__asm___13_SCPInteface_c_f8b7890c____REV16 <= USED 0
+__asm___13_SCPInteface_c_f8b7890c____REVSH <= USED 0
+;FILE scpparamcheck.o
+__asm___15_SCPParamCheck_c_5257c2fa____REV16 <= USED 0
+__asm___15_SCPParamCheck_c_5257c2fa____REVSH <= USED 0
+checkSequenceCount <= USED 0
+checkTryAuth <= USED 0
+check_security_level <= USED 0
+;FILE secoperationhal.o
+SetupShares <= USED 0
+__asm___17_SecOperationHal_c_6672518d____REV16 <= USED 0
+__asm___17_SecOperationHal_c_6672518d____REVSH <= USED 0
+;FILE securecrypto.o
+SC_MemCopyAPI <= USED 0
+__asm___14_SecureCrypto_c_8696326b____REV16 <= USED 0
+__asm___14_SecureCrypto_c_8696326b____REVSH <= USED 0
+;FILE secureoperation.o
+SO_getSecDataByRef <= USED 0
+__asm___17_SecureOperation_c_e81de5b9____REV16 <= USED 0
+__asm___17_SecureOperation_c_e81de5b9____REVSH <= USED 0
+;FILE securitydomaindata.o
+__asm___20_securityDomainData_c_638574d5____REV16 <= USED 0
+__asm___20_securityDomainData_c_638574d5____REVSH <= USED 0
+;FILE seeuiccinterface.o
+EUICC_GetEID <= USED 0
+SEUICC_CheckISDRECASDAID <= USED 0
+__asm___18_SEEUICCInterface_c_0ea4f238____REV16 <= USED 0
+__asm___18_SEEUICCInterface_c_0ea4f238____REVSH <= USED 0
+;FILE sensitiveresult.o
+__asm___17_SensiTiveResult_c____REV16 <= USED 0
+__asm___17_SensiTiveResult_c____REVSH <= USED 0
+;FILE spihal.o
+__asm___8_SpiHal_c____REV16 <= USED 0
+__asm___8_SpiHal_c____REVSH <= USED 0
+;FILE stack.o
+__asm___7_stack_c_b160fffe____REV16 <= USED 0
+__asm___7_stack_c_b160fffe____REVSH <= USED 0
+;FILE startup_mhscpu.o
+Soft_Restart <= USED 0
+;FILE stk_app .o
+__asm___10_STK_App__c____REV16 <= USED 0
+__asm___10_STK_App__c____REVSH <= USED 0
+;FILE stkalert.o
+__asm___10_STKAlert_c_192012d1____REV16 <= USED 0
+__asm___10_STKAlert_c_192012d1____REVSH <= USED 0
+;FILE stkcatruntimeenviorment.o
+__asm___25_STKCATRuntimeEnviorment_c_cdf0624c____REV16 <= USED 0
+__asm___25_STKCATRuntimeEnviorment_c_cdf0624c____REVSH <= USED 0
+;FILE stkfileview.o
+__asm___13_STKFileView_c_bf0ec4c9____REV16 <= USED 0
+__asm___13_STKFileView_c_bf0ec4c9____REVSH <= USED 0
+;FILE stknativemethod.o
+__asm___17_STKNativeMethod_c_375c472f____REV16 <= USED 0
+__asm___17_STKNativeMethod_c_375c472f____REVSH <= USED 0
+;FILE stkremoteappmanagement.o
+__asm___24_STKRemoteAppManagement_c_0403b245____REV16 <= USED 0
+__asm___24_STKRemoteAppManagement_c_0403b245____REVSH <= USED 0
+;FILE stksubfunction.o
+ClearFileFirstWordAddr <= USED 0
+WriteTFFileValue <= USED 0
+__asm___16_stkSubFunction_c_memcmp_p____REV16 <= USED 0
+__asm___16_stkSubFunction_c_memcmp_p____REVSH <= USED 0
+;FILE stktoolkitinterface.o
+__asm___21_STKToolkitInterface_c_98df3c2d____REV16 <= USED 0
+__asm___21_STKToolkitInterface_c_98df3c2d____REVSH <= USED 0
+;FILE supi.o
+__asm___6_Supi_c_type____REV16 <= USED 0
+__asm___6_Supi_c_type____REVSH <= USED 0
+;FILE suspenduicc.o
+__asm___13_SuspendUicc_c____REV16 <= USED 0
+__asm___13_SuspendUicc_c____REVSH <= USED 0
+;FILE swp_hci_api.o
+__asm___13_Swp_Hci_Api_c____REV16 <= USED 0
+__asm___13_Swp_Hci_Api_c____REVSH <= USED 0
+;FILE swpdataconfig.o
+__asm___15_swpDataConfig_c____REV16 <= USED 0
+__asm___15_swpDataConfig_c____REVSH <= USED 0
+;FILE swphal.o
+__asm___8_SwpHal_c____REV16 <= USED 0
+__asm___8_SwpHal_c____REVSH <= USED 0
+;FILE swptimerhal.o
+__asm___13_SwpTimerHal_c____REV16 <= USED 0
+__asm___13_SwpTimerHal_c____REVSH <= USED 0
+;FILE sym_aead_hal.o
+__asm___14_Sym_AEAD_HAL_c____REV16 <= USED 0
+__asm___14_Sym_AEAD_HAL_c____REVSH <= USED 0
+;FILE sym_aes_hal.o
+AESKeyExpand <= USED 0
+__asm___13_Sym_AES_HAL_c_9dafc1d9____REV16 <= USED 0
+__asm___13_Sym_AES_HAL_c_9dafc1d9____REVSH <= USED 0
+;FILE sym_api.o
+DealDESSensitiveData <= USED 0
+__asm___9_Sym_API_c_d87ea8a5____REV16 <= USED 0
+__asm___9_Sym_API_c_d87ea8a5____REVSH <= USED 0
+;FILE sym_des_hal.o
+__asm___13_Sym_DES_HAL_c_58cd017a____REV16 <= USED 0
+__asm___13_Sym_DES_HAL_c_58cd017a____REVSH <= USED 0
+loadDESKey <= USED 0
+;FILE sym_sm1_hal.o
+__asm___13_Sym_SM1_HAL_c____REV16 <= USED 0
+__asm___13_Sym_SM1_HAL_c____REVSH <= USED 0
+;FILE sym_sm4_hal.o
+__asm___13_Sym_SM4_HAL_c____REV16 <= USED 0
+__asm___13_Sym_SM4_HAL_c____REVSH <= USED 0
+;FILE sym_sm7_hal.o
+__asm___13_Sym_SM7_HAL_c____REV16 <= USED 0
+__asm___13_Sym_SM7_HAL_c____REVSH <= USED 0
+;FILE sysconfig.o
+__asm___11_SysConfig_c_32fde3b0____REV16 <= USED 0
+__asm___11_SysConfig_c_32fde3b0____REVSH <= USED 0
+sysConfig_GetCpuClkRf <= USED 0
+sysConfig_GetCpuClkRfCom <= USED 0
+;FILE syshal.o
+__asm___8_SysHal_c_91618f92____REV16 <= USED 0
+__asm___8_SysHal_c_91618f92____REVSH <= USED 0
+ecpSysHal_AssignProtocolPriority <= USED 0
+ecpSysHal_GetCpuClk <= USED 0
+ecpSysHal_IsDirectConversion <= USED 0
+ecpSysHal_ManageNvmRepair <= USED 0
+ecpSysHal_SetIntAfterRfWtx <= USED 0
+ecpSysHal_SetIntBeforeRfWtx <= USED 0
+ecpSysHal_SystemReset <= USED 0
+;FILE system_mhcard.o
+MHAsymc_Enable <= USED 0
+PowerConfig_AfterAsymc <= USED 0
+PowerConfig_AfterFcu <= USED 0
+PowerConfig_BeforeAsymc <= USED 0
+PowerConfig_BeforeFcu <= USED 0
+SYSCLK_ADAPT <= USED 0
+SystemCoreClockUpdate <= USED 0
+SystemIdleConfig <= USED 0
+SystemInit <= USED 0
+__asm___15_system_mhcard_c_5d646a67____REV16 <= USED 0
+__asm___15_system_mhcard_c_5d646a67____REVSH <= USED 0
+flash_init_cfg <= USED 0
+init_gpio <= USED 0
+;FILE t0apduimpl.o
+__asm___12_T0ApduImpl_c_79f3b943____REV16 <= USED 0
+__asm___12_T0ApduImpl_c_79f3b943____REVSH <= USED 0
+;FILE tagnode.o
+__asm___9_tagNode_c_6c957715____REV16 <= USED 0
+__asm___9_tagNode_c_6c957715____REVSH <= USED 0
+;FILE temp_ob_manager.o
+__asm___17_temp_ob_manager_c____REV16 <= USED 0
+__asm___17_temp_ob_manager_c____REVSH <= USED 0
+;FILE timermoduleproces.o
+TimerModuleDeactivateTimer <= USED 0
+__asm___19_TimerModuleProces_c_c5548837____REV16 <= USED 0
+__asm___19_TimerModuleProces_c_c5548837____REVSH <= USED 0
+;FILE tlsalgorithm.o
+__asm___14_TlsAlgorithm_c_d51c20a1____REV16 <= USED 0
+__asm___14_TlsAlgorithm_c_d51c20a1____REVSH <= USED 0
+;FILE tlsmainflow.o
+__asm___13_TlsMainFlow_c_ea100133____REV16 <= USED 0
+__asm___13_TlsMainFlow_c_ea100133____REVSH <= USED 0
+;FILE tlvoperation.o
+__asm___14_tlvOperation_c_c32bd398____REV16 <= USED 0
+__asm___14_tlvOperation_c_c32bd398____REVSH <= USED 0
+;FILE toolkitapipublic.o
+__asm___18_ToolkitAPIPublic_c_597a98b0____REV16 <= USED 0
+__asm___18_ToolkitAPIPublic_c_597a98b0____REVSH <= USED 0
+;FILE toolkitregisterypublic.o
+__asm___24_ToolkitRegisterypublic_c_7c9c4103____REV16 <= USED 0
+__asm___24_ToolkitRegisterypublic_c_7c9c4103____REVSH <= USED 0
+;FILE toolkitrfm.o
+AddNextMessage <= USED 0
+IF_AccessCondition <= USED 0
+Toolkit_CalPORMac <= USED 0
+__asm___12_ToolkitRFM_c_2af91006____REV16 <= USED 0
+__asm___12_ToolkitRFM_c_2af91006____REVSH <= USED 0
+;FILE tranallocate.o
+__asm___14_tranAllocate_c_a26d055a____REV16 <= USED 0
+__asm___14_tranAllocate_c_a26d055a____REVSH <= USED 0
+;FILE trandeallocate.o
+__asm___16_tranDeallocate_c_e6315d9a____REV16 <= USED 0
+__asm___16_tranDeallocate_c_e6315d9a____REVSH <= USED 0
+;FILE tranmanager.o
+__asm___13_tranManager_c_f18ad814____REV16 <= USED 0
+__asm___13_tranManager_c_f18ad814____REVSH <= USED 0
+;FILE transformat.o
+ADNToAscii <= USED 0
+AsciiToADN <= USED 0
+AsciiToUCS2 <= USED 0
+HexToUCS2 <= USED 0
+IntToString <= USED 0
+StringToInt <= USED 0
+__asm___13_TransFormat_c_c88b6a83____REV16 <= USED 0
+__asm___13_TransFormat_c_c88b6a83____REVSH <= USED 0
+;FILE tuak.o
+__asm___6_TUAK_c_46da698a____REV16 <= USED 0
+__asm___6_TUAK_c_46da698a____REVSH <= USED 0
+;FILE uarthal.o
+Uart_RxIrqHandlerProcess <= USED 0
+__asm___9_UartHal_c_c6da4e53____REV16 <= USED 0
+__asm___9_UartHal_c_c6da4e53____REVSH <= USED 0
+ecpUart_ClearFifo <= USED 0
+ecpUart_ClearResetFlag <= USED 0
+ecpUart_CloseInterrupt <= USED 0
+ecpUart_ClrRxIrqStatus <= USED 0
+ecpUart_DiscoverError <= USED 0
+ecpUart_IsReset <= USED 0
+ecpUart_IsRisingState <= USED 0
+ecpUart_OpenInterrupt <= USED 0
+ecpUart_RxByte <= USED 0
+ecpUart_SetRxLength <= USED 0
+ecpUart_StopTx <= USED 0
+ecpUart_TxRxRunning <= USED 0
+ecpUart_WarnReset <= USED 0
+ecpUart_getRxLen <= USED 0
+wtxTimer_Tunning <= USED 0
+;FILE uicc_error.o
+__asm___12_uicc_error_c_91f7dfa3____REV16 <= USED 0
+__asm___12_uicc_error_c_91f7dfa3____REVSH <= USED 0
+;FILE uicc_interface.o
+IF_BipChannelStatus <= USED 0
+IF_CurProfile_Support_HTTPS <= USED 0
+IF_EepromAddressSetting <= USED 0
+IF_GetFirstSCP80AESkeyByAppID <= USED 0
+IF_IsYCTAppletCommand <= USED 0
+IF_ReceiveData <= USED 0
+IF_SendATR <= USED 0
+__asm___16_uicc_interface_c_prePage____REV16 <= USED 0
+__asm___16_uicc_interface_c_prePage____REVSH <= USED 0
+;FILE uicc_m2m.o
+__asm___10_uicc_M2M_c____REV16 <= USED 0
+__asm___10_uicc_M2M_c____REVSH <= USED 0
+;FILE uicc_main.o
+PresenceTCK <= USED 0
+__asm___11_uicc_main_c_ed85e4d5____REV16 <= USED 0
+__asm___11_uicc_main_c_ed85e4d5____REVSH <= USED 0
+;FILE uiccadminfileview.o
+__asm___19_UICCAdminFileView_c_e193f677____REV16 <= USED 0
+__asm___19_UICCAdminFileView_c_e193f677____REVSH <= USED 0
+;FILE uiccedithandler.o
+__asm___17_UICCEditHandler_c_5fc7639d____REV16 <= USED 0
+__asm___17_UICCEditHandler_c_5fc7639d____REVSH <= USED 0
+;FILE uiccenvelophandler.o
+__asm___20_UICCEnvelopHandler_c_79fa6eed____REV16 <= USED 0
+__asm___20_UICCEnvelopHandler_c_79fa6eed____REVSH <= USED 0
+;FILE uiccenvelopresponsehandler.o
+__asm___28_UICCEnvelopResponseHandler_c_UICCpost____REV16 <= USED 0
+__asm___28_UICCEnvelopResponseHandler_c_UICCpost____REVSH <= USED 0
+;FILE uiccfileview.o
+__asm___14_UICCFileView_c_9a0cd3c4____REV16 <= USED 0
+__asm___14_UICCFileView_c_9a0cd3c4____REVSH <= USED 0
+;FILE uiccproactivehandler.o
+__asm___22_UICCProactiveHandler_c_289daacd____REV16 <= USED 0
+__asm___22_UICCProactiveHandler_c_289daacd____REVSH <= USED 0
+;FILE uiccproactivereshandler.o
+__asm___25_UICCProactiveResHandler_c_206d4ec4____REV16 <= USED 0
+__asm___25_UICCProactiveResHandler_c_206d4ec4____REVSH <= USED 0
+;FILE uiccterminalprofile.o
+__asm___21_UICCTerminalProfile_c____REV16 <= USED 0
+__asm___21_UICCTerminalProfile_c____REVSH <= USED 0
+;FILE uicctoolkitregistery.o
+__asm___22_UICCToolkitRegistery_c_93ef4452____REV16 <= USED 0
+__asm___22_UICCToolkitRegistery_c_93ef4452____REVSH <= USED 0
+;FILE uiccviewhandler.o
+__asm___17_UICCViewHandler_c_c8fc1a3d____REV16 <= USED 0
+__asm___17_UICCViewHandler_c_c8fc1a3d____REVSH <= USED 0
+;FILE upcos.o
+__asm___7_UpCos_c____REV16 <= USED 0
+__asm___7_UpCos_c____REVSH <= USED 0
+;FILE uploadinfofunction.o
+__asm___20_UploadInfoFunction_c____REV16 <= USED 0
+__asm___20_UploadInfoFunction_c____REVSH <= USED 0
+;FILE usatenvelopehandler.o
+__asm___21_USATEnvelopeHandler_c_9a36ce0a____REV16 <= USED 0
+__asm___21_USATEnvelopeHandler_c_9a36ce0a____REVSH <= USED 0
+;FILE usattest.o
+__asm___10_USATTest_c____REV16 <= USED 0
+__asm___10_USATTest_c____REVSH <= USED 0
+;FILE utilmethod.o
+__asm___12_utilMethod_c_494e3d18____REV16 <= USED 0
+__asm___12_utilMethod_c_494e3d18____REVSH <= USED 0
+check_arraybounds_interval <= USED 0
+;FILE variable.o
+__asm___10_variable_c_041971e1____REV16 <= USED 0
+__asm___10_variable_c_041971e1____REVSH <= USED 0
+;FILE vmaccesseeprom.o
+VMReadInt <= USED 0
+VMReadThreeBytesAddr <= USED 0
+VMWriteInt <= USED 0
+WriteUwordNoAtomic <= USED 0
+;FILE whitecardbewrited_v1.o
+__asm___22_WhiteCardBeWrited_V1_c____REV16 <= USED 0
+__asm___22_WhiteCardBeWrited_V1_c____REVSH <= USED 0
+;FILE wtxinterupt.o
+__asm___13_WtxInterupt_c_84314b7a____REV16 <= USED 0
+__asm___13_WtxInterupt_c_84314b7a____REVSH <= USED 0
+;FILE wtxtimer.o
+__asm___10_WtxTimer_c_6c26d432____REV16 <= USED 0
+__asm___10_WtxTimer_c_6c26d432____REVSH <= USED 0
+wtxTimer_InteruptInit <= USED 0
+;FILE wtxtimerhal.o
+__asm___13_WtxTimerHal_c_0f8d8765____REV16 <= USED 0
+__asm___13_WtxTimerHal_c_0f8d8765____REVSH <= USED 0
+ecpClrT0WtxTimerOverFlow <= USED 0
+ecpDisableT0WtxTimer <= USED 0
+ecpEnableT0WtxTimer <= USED 0
+ecpInitT0TimeInterupt <= USED 0
+;FILE xorauthentication.o
+__asm___19_XORAuthentication_c_8dfbcecc____REV16 <= USED 0
+__asm___19_XORAuthentication_c_8dfbcecc____REVSH <= USED 0

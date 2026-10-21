@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: qiu qiuping, eastcompeace, LIC=ZB4EI-TQS52-CXYU6-DJ3JE-VRY7K-1PXB8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.27.1.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC_ISS\Bin
+C Compiler:      Armcc.exe V5.99 update 4 (build 402)
+Assembler:       Armasm.exe V5.99 update 4 (build 402)
+Linker/Locator:  ArmLink.exe V5.99 update 4 (build 402)
+Library Manager: ArmAr.exe V5.99 update 4 (build 402)
+Hex Converter:   FromElf.exe V5.99 update 4 (build 402)
+CPU DLL:         SARMCM3.DLL V5.27.1.0
+Dialog DLL:      
+Target DLL:      Hitex\AGDIAdapter_GET90.dll V2,0,272,0
+Dialog DLL:      
+ 
+<h2>Project:</h2>
+F:\EPXv2.1\BRANCH_MODULE\RSP_INFENION_SLC37\BRANCH\qiuping\CODE\Jces\IFX_SLC37 - COSB.uvproj
+Project File Date:  01/03/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.99 update 4 (build 402)', folder: 'C:\Keil_v5\ARM\ARMCC_ISS\Bin'
+Build target 'SLC37ESA2M0_EPX'
+compiling Io_SPI.c...
+compiling Io_I2C.c...
+compiling JcvmInit.c...
+compiling BootOSImpl.c...
+compiling FunEntryConfig.c...
+compiling NvmHal.c...
+compiling system_SLCx7_C65.c...
+compiling FunImp.c...
+compiling Authentication.c...
+compiling TlsMainFlow.c...
+compiling UpCos.c...
+compiling lifecycle.c...
+compiling uicc_interface.c...
+compiling reset.c...
+compiling Interface_AnnexB.c...
+linking...
+C:\Users\qiuping\AppData\Local\Temp\pe3d8-3(115): warning: L6312W: Empty Execution region description for region ER_UPCOS_CODE
+C:\Users\qiuping\AppData\Local\Temp\pe3d8-3(294): warning: L6312W: Empty Execution region description for region ER_PATCH_START
+Program Size: Code=508654 RO-data=182202 RW-data=2368 ZI-data=17892  
+Finished: 0 information, 2 warning and 0 error messages.
+FromELF: creating hex file...
+After Build - User command #1: "C:\Keil_v5\ARM\Infineon\SLE90\ISSC.exe" -d 0 -e  ".\Objects _COSB\SLC37ESA2M0_EPX2_COSB.axf" -r
+Warning ISSCW022: Could not determine branch address. Indirect branch target handled as return: ADD PC,R1 at 0x1018e5b8 src\Jcvm\/VM\native_interface.c: 86 (callnative)
+Please check that the assembler code uses correct branch address.
+Warning ISSCW022: Could not determine branch address. Indirect branch target handled as return: ADD PC,R1 at 0x1018e810 src\Jcvm\/VM\native_interface.c: 86 (callnative)
+Please check that the assembler code uses correct branch address.
+2995 update placeholders (187 superfluous), 0 check placeholders and 66 IFX_ISS function parameters patched.
+ISSC: Program ended with 0 fatal errors, 0 errors and 2 warnings.
+After Build - User command #2: "C:\Keil_v5\ARM\Infineon\SLE90\pl90-mt.exe" --default-firmware  ".\Objects _COSB\SLC37ESA2M0_EPX2_COSB.axf"  -c "C:\Keil_v5\Infineon\SLE90\etc\SLC37ESA2M0_V5.xsdf" -o ".\Objects _COSB\SLC37ESA2M0_EPX2_COSB.axf"
+Default Firmware: ../../../Infineon/SLE90/UserModeIFX/fw-00.201.04.0-slcx7v5.axf
+pl90: Program ended with 0 fatal errors, 0 errors, 0 warnings
+".\Objects _COSB\SLC37ESA2M0_EPX2_COSB.axf" - 0 Error(s), 4 Warning(s).
+Build Time Elapsed:  00:01:28
+</pre>
+</body>
+</html>
